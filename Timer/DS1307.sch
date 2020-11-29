@@ -72,7 +72,7 @@
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="no" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
@@ -6646,14 +6646,14 @@ Source: AVX .. aphvc.pdf</description>
 </plain>
 <instances>
 <instance part="Q4" gate="G$1" x="-2.54" y="21.59" smashed="yes" rot="R180">
-<attribute name="NAME" x="-5.08" y="20.574" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-5.08" y="24.13" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="-5.08" y="25.654" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="3.81" y="25.4" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC10" gate="G$1" x="0" y="-1.27" smashed="yes">
 <attribute name="NAME" x="-8.89" y="-11.43" size="1.778" layer="95"/>
 </instance>
 <instance part="P+42" gate="VCC" x="7.62" y="25.4" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="5.08" y="27.94" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="11.43" y="25.4" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND41" gate="1" x="0" y="-26.67" smashed="yes">
 <attribute name="VALUE" x="-2.54" y="-29.21" size="1.778" layer="96"/>
@@ -6662,12 +6662,12 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="13.97" y="-26.67" size="1.778" layer="96"/>
 </instance>
 <instance part="R28" gate="G$1" x="-17.78" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="-16.51" y="9.1186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-16.51" y="6.858" size="1.778" layer="96"/>
+<attribute name="NAME" x="-16.51" y="6.5786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-16.51" y="4.318" size="1.778" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="-17.78" y="-8.89" smashed="yes" rot="R270">
-<attribute name="NAME" x="-16.51" y="-7.3914" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-16.51" y="-9.652" size="1.778" layer="96"/>
+<attribute name="NAME" x="-16.51" y="-8.6614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-16.51" y="-10.922" size="1.778" layer="96"/>
 </instance>
 <instance part="P+43" gate="VCC" x="-17.78" y="19.05" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-20.32" y="22.86" size="1.778" layer="96" rot="MR180"/>
@@ -6680,8 +6680,8 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="16.51" y="-5.08" size="0.762" layer="96" ratio="10" rot="R270"/>
 </instance>
 <instance part="C3" gate="G$1" x="17.78" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.256" y="14.859" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="16.256" y="19.939" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="21.336" y="14.859" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="25.146" y="19.939" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND8" gate="1" x="17.78" y="8.89" smashed="yes">
 <attribute name="VALUE" x="15.24" y="6.35" size="1.778" layer="96"/>

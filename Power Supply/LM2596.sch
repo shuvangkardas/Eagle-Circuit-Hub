@@ -72,7 +72,7 @@
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="no" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
@@ -14571,21 +14571,21 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="-18.796" y="-12.319" size="1.778" layer="96"/>
 </instance>
 <instance part="C26" gate="G$1" x="43.18" y="-8.89" smashed="yes">
-<attribute name="NAME" x="40.1574" y="-12.827" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="44.323" y="-13.4874" size="1.778" layer="96"/>
+<attribute name="NAME" x="38.5826" y="-6.223" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="38.5826" y="-11.303" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C28" gate="G$1" x="58.42" y="-8.89" smashed="yes">
-<attribute name="NAME" x="55.499" y="-12.446" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="59.944" y="-13.589" size="1.778" layer="96"/>
+<attribute name="NAME" x="54.991" y="-5.334" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="56.769" y="-18.796" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND24" gate="1" x="0" y="-27.94" smashed="yes">
 <attribute name="VALUE" x="-2.54" y="-30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="1" x="-36.83" y="7.62" smashed="yes">
-<attribute name="VALUE" x="-39.37" y="2.54" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-29.21" y="5.08" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D2" gate="G$1" x="24.13" y="-10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.225" y="-12.446" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="28.575" y="-11.176" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="27.559" y="-12.446" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC1" gate="NC1" x="0" y="0" smashed="yes">
@@ -14593,27 +14593,27 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="2.54" y="6.35" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="50.8" y="-8.89" smashed="yes">
-<attribute name="NAME" x="47.7774" y="-12.827" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="51.943" y="-13.4874" size="1.778" layer="96"/>
+<attribute name="NAME" x="46.2026" y="-6.223" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="47.7774" y="-17.907" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C11" gate="G$1" x="-36.83" y="-7.62" smashed="yes">
 <attribute name="NAME" x="-35.687" y="-7.1374" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-35.687" y="-12.2174" size="1.778" layer="96"/>
 </instance>
 <instance part="C19" gate="G$1" x="-27.94" y="-7.62" smashed="yes">
-<attribute name="NAME" x="-26.416" y="-7.239" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-26.416" y="-12.319" size="1.778" layer="96"/>
+<attribute name="NAME" x="-27.686" y="-7.239" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-27.686" y="-12.319" size="1.778" layer="96"/>
 </instance>
 <instance part="R11" gate="G$1" x="17.78" y="-5.08" smashed="yes">
-<attribute name="NAME" x="16.51" y="-2.3114" size="1.778" layer="95"/>
-<attribute name="VALUE" x="13.97" y="-8.382" size="1.778" layer="96"/>
+<attribute name="NAME" x="16.51" y="-3.5814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="15.24" y="-8.382" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="12.7" y="-13.97" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.9314" y="-15.24" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="16.002" y="-17.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="11.2014" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="16.002" y="-16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L3" gate="G$1" x="33.02" y="2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.29" y="1.27" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="29.21" y="6.35" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="38.1" y="6.35" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
