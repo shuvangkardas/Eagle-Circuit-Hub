@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -13795,14 +13795,14 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="U$2" library="SIM800LMODULE" deviceset="SIM800LMODULE" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="v-reg" deviceset="LD117A?*" device="S" technology="25TR" value="LM1117-adj"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
+<part name="C24" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
 <part name="R11" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
 <part name="R12" library="resistor" deviceset="R-US_" device="0204/7" value="43k"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C25" library="rcl" deviceset="CPOL-US" device="UD-6,3X7,7" value="220uF"/>
+<part name="C25" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="220uF"/>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C26" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
 <part name="C28" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="100uF"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="0204/7" value="1K"/>
 <part name="R20" library="resistor" deviceset="R-US_" device="0204/7" value="1K"/>

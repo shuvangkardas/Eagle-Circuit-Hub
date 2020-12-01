@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3525,6 +3525,12 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="VCC">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -3540,84 +3546,10 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="PatternAgents-Beautify">
-<description>&lt;B&gt;PatternAgents Beautify Library&lt;/B&gt;
-&lt;P&gt;
-Schematic Symbols for Design Beautification.
-&lt;BR&gt;
-Schematic and PCB layout libraries for design patterns by PatternAgents.
-&lt;P&gt;
-&lt;B&gt;Note Bene:&lt;/B&gt; This library uses no special characters in the Power Supply names.
-&lt;BR&gt;
-For example: Where most Eagle Libraries would use "+5V" for the net name for the main 5V rail,
-&lt;BR&gt;
-PatternAgents uses "5V0" to avoid any special characters that break other CAD tools.
-&lt;BR&gt;
-This is not a problem if you live only within Eagle, but once you want to bring your netlist into
-&lt;BR&gt;
-other CAD or Simulation tools, your netlist can become difficult to port to other tools.
-&lt;BR&gt;
-Trust us, we have years of experience at this... 
-&lt;P&gt;
-For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
-&lt;P&gt;
-Github : https://github.com/PatternAgents
-&lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/3.0/ 
-(Creative Commons 3.0)
-&lt;P&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
-OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="3V3">
-<description>&lt;B&gt;3.3V Power Supply Symbol&lt;/B&gt;
-&lt;P&gt;
-Github : https://github.com/PatternAgents
-&lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/3.0/ 
-(Creative Commons 3.0)
-&lt;P&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
-OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3V3" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="1.27" y="1.27" size="0.8128" layer="94">3.3V</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="3V3">
-<description>&lt;B&gt;3.3V Power Supply Symbol&lt;/B&gt;
-&lt;P&gt;
-Github : https://github.com/PatternAgents
-&lt;BR&gt;
-License : http://creativecommons.org/licenses/by-sa/3.0/ 
-(Creative Commons 3.0)
-&lt;P&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
-INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
-OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
-OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
+<deviceset name="VCC" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="3V3" x="0" y="0"/>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3785,9 +3717,9 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="050-024X044" value="100nF"/>
 <part name="C23" library="rcl" deviceset="C-EU" device="050-024X044" value="1uF"/>
-<part name="U$1" library="PatternAgents-Beautify" deviceset="3V3" device=""/>
 <part name="M2" library="diy-modules" deviceset="WIRELESS-NRF24L01-PA-EXT" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="050-024X044" value="10nF"/>
+<part name="P+1" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3810,12 +3742,12 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <attribute name="NAME" x="-162.179" y="210.566" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-159.004" y="211.709" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-157.48" y="218.44"/>
 <instance part="M2" gate="G$1" x="-104.14" y="208.28"/>
 <instance part="C19" gate="G$1" x="-142.24" y="207.01" smashed="yes" rot="R180">
 <attribute name="NAME" x="-146.939" y="210.566" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-143.764" y="211.709" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="P+1" gate="VCC" x="-157.48" y="220.98"/>
 </instances>
 <busses>
 </busses>
@@ -3853,25 +3785,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pinref part="M2" gate="G$1" pin="MOSI"/>
 </segment>
 </net>
-<net name="3V3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="3V3"/>
-<wire x1="-127" y1="215.9" x2="-142.24" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="215.9" x2="-149.86" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="215.9" x2="-157.48" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="-157.48" y1="215.9" x2="-157.48" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="212.09" x2="-157.48" y2="215.9" width="0.1524" layer="91"/>
-<junction x="-157.48" y="215.9"/>
-<pinref part="M2" gate="G$1" pin="VCC"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="-149.86" y1="212.09" x2="-149.86" y2="215.9" width="0.1524" layer="91"/>
-<junction x="-149.86" y="215.9"/>
-<pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="-142.24" y1="212.09" x2="-142.24" y2="215.9" width="0.1524" layer="91"/>
-<junction x="-142.24" y="215.9"/>
-</segment>
-</net>
 <net name="MISO" class="0">
 <segment>
 <wire x1="-127" y1="203.2" x2="-130.81" y2="203.2" width="0.1524" layer="91"/>
@@ -3898,6 +3811,25 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="-127" y1="213.36" x2="-130.81" y2="213.36" width="0.1524" layer="91"/>
 <label x="-130.81" y="213.36" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <pinref part="M2" gate="G$1" pin="CE"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<wire x1="-127" y1="215.9" x2="-142.24" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="215.9" x2="-149.86" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="215.9" x2="-157.48" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="215.9" x2="-157.48" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="-157.48" y1="212.09" x2="-157.48" y2="215.9" width="0.1524" layer="91"/>
+<junction x="-157.48" y="215.9"/>
+<pinref part="M2" gate="G$1" pin="VCC"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="-149.86" y1="212.09" x2="-149.86" y2="215.9" width="0.1524" layer="91"/>
+<junction x="-149.86" y="215.9"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="-142.24" y1="212.09" x2="-142.24" y2="215.9" width="0.1524" layer="91"/>
+<junction x="-142.24" y="215.9"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 </nets>

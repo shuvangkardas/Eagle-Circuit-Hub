@@ -25513,10 +25513,10 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q64jv spi revg 1214
 <instance part="GND21" gate="1" x="190.5" y="161.29" smashed="yes">
 <attribute name="VALUE" x="187.96" y="158.75" size="1.778" layer="96"/>
 </instance>
-<instance part="BUZ1" gate="1" x="238.76" y="186.69" rot="R270"/>
-<instance part="GND23" gate="1" x="236.22" y="156.21"/>
-<instance part="P+8" gate="VCC" x="236.22" y="199.39" smashed="yes">
-<attribute name="VALUE" x="236.22" y="203.2" size="1.778" layer="96" rot="R180"/>
+<instance part="BUZ1" gate="1" x="322.58" y="186.69" rot="R270"/>
+<instance part="GND23" gate="1" x="320.04" y="156.21"/>
+<instance part="P+8" gate="VCC" x="320.04" y="199.39" smashed="yes">
+<attribute name="VALUE" x="320.04" y="203.2" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IC8" gate="G$1" x="31.75" y="190.5"/>
 <instance part="C16" gate="G$1" x="-8.89" y="182.88"/>
@@ -25536,8 +25536,8 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q64jv spi revg 1214
 <instance part="R4" gate="G$1" x="170.18" y="-69.85" rot="R90"/>
 <instance part="R5" gate="G$1" x="189.23" y="-71.12" rot="R90"/>
 <instance part="R7" gate="G$1" x="190.5" y="180.34" rot="R90"/>
-<instance part="R3" gate="G$1" x="226.06" y="166.37" rot="R90"/>
-<instance part="R2" gate="G$1" x="219.71" y="172.72" rot="R180"/>
+<instance part="R3" gate="G$1" x="309.88" y="166.37" rot="R90"/>
+<instance part="R2" gate="G$1" x="303.53" y="172.72" rot="R180"/>
 <instance part="R14" gate="G$1" x="60.96" y="196.85" rot="R180"/>
 <instance part="R27" gate="G$1" x="46.99" y="182.88" rot="R270"/>
 <instance part="SJ5" gate="1" x="40.64" y="175.26" rot="R270"/>
@@ -25744,7 +25744,7 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q64jv spi revg 1214
 </instance>
 <instance part="C27" gate="G$1" x="41.91" y="49.53"/>
 <instance part="C18" gate="G$1" x="87.63" y="-77.47"/>
-<instance part="Q6" gate="G$1" x="233.68" y="172.72"/>
+<instance part="Q6" gate="G$1" x="317.5" y="172.72"/>
 <instance part="SETUP" gate="1" x="151.13" y="68.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="157.48" y="66.04" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="154.94" y="71.755" size="1.778" layer="96" rot="MR90"/>
@@ -25884,11 +25884,11 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q64jv spi revg 1214
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="236.22" y1="167.64" x2="236.22" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="167.64" x2="320.04" y2="161.29" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="161.29" x2="236.22" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="161.29" x2="236.22" y2="161.29" width="0.1524" layer="91"/>
-<junction x="236.22" y="161.29"/>
+<wire x1="320.04" y1="161.29" x2="320.04" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="161.29" x2="320.04" y2="161.29" width="0.1524" layer="91"/>
+<junction x="320.04" y="161.29"/>
 <pinref part="Q6" gate="G$1" pin="S"/>
 </segment>
 <segment>
@@ -26067,7 +26067,7 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q64jv spi revg 1214
 <segment>
 <pinref part="BUZ1" gate="1" pin="+"/>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
-<wire x1="236.22" y1="196.85" x2="236.22" y2="189.23" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="196.85" x2="320.04" y2="189.23" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="+"/>
@@ -26592,20 +26592,20 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q64jv spi revg 1214
 <net name="N$20" class="0">
 <segment>
 <pinref part="BUZ1" gate="1" pin="-"/>
-<wire x1="236.22" y1="181.61" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="181.61" x2="320.04" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="224.79" y1="172.72" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="308.61" y1="172.72" x2="309.88" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="172.72" x2="231.14" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="171.45" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
-<junction x="226.06" y="172.72"/>
+<wire x1="309.88" y1="172.72" x2="314.96" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="171.45" x2="309.88" y2="172.72" width="0.1524" layer="91"/>
+<junction x="309.88" y="172.72"/>
 <pinref part="Q6" gate="G$1" pin="G"/>
-<wire x1="231.14" y1="172.72" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="172.72" x2="314.96" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -26846,11 +26846,11 @@ Source: &lt;a href="http://www.winbond.com/resource-files/w25q64jv spi revg 1214
 <label x="116.84" y="97.79" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="205.74" y1="172.72" x2="214.63" y2="172.72" width="0.1524" layer="91"/>
-<label x="207.01" y="172.72" size="1.27" layer="95"/>
+<wire x1="289.56" y1="172.72" x2="298.45" y2="172.72" width="0.1524" layer="91"/>
+<label x="293.37" y="175.26" size="1.27" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="214.63" y1="172.72" x2="217.17" y2="172.72" width="0.1524" layer="91"/>
-<junction x="214.63" y="172.72"/>
+<wire x1="298.45" y1="172.72" x2="300.99" y2="172.72" width="0.1524" layer="91"/>
+<junction x="298.45" y="172.72"/>
 </segment>
 </net>
 <net name="A0" class="0">
