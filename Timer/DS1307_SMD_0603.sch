@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +53,21 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -94,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -104,15 +108,32 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -1471,6 +1492,72 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="-0.635" y1="-0.3048" x2="-0.3302" y2="0.3048" layer="51"/>
 <rectangle x1="-0.3302" y1="-0.3048" x2="0.254" y2="0.3048" layer="21"/>
 </package>
+<package name="NX8045">
+<wire x1="4" y1="-1.9172" x2="3.7172" y2="-2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.7172" y1="-2.2" x2="-3.7172" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-3.7172" y1="-2.2" x2="-4" y2="-1.9172" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4" y1="-1.9172" x2="-4" y2="1.9764" width="0.127" layer="21"/>
+<wire x1="-4" y1="1.9764" x2="-3.7764" y2="2.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.7764" y1="2.2" x2="3.6838" y2="2.2" width="0.127" layer="21"/>
+<wire x1="3.6838" y1="2.2" x2="4" y2="1.8838" width="0.127" layer="21" curve="-90"/>
+<wire x1="4" y1="1.8838" x2="4" y2="-1.9172" width="0.127" layer="21"/>
+<wire x1="-3" y1="1.9" x2="3.1" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.1" y1="1.9" x2="3.5" y2="1.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.5" y1="1.4" x2="3.5" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.4" x2="3.1" y2="-1.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="3.1" y1="-1.8" x2="-3.1" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-1.8" x2="-3.5" y2="-1.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.5" y1="-1.4" x2="-3.5" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="1.4" x2="-3" y2="1.9" width="0.127" layer="21" curve="-90"/>
+<smd name="P$1" x="3.3" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<smd name="P$2" x="-3.2" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<text x="-2.7" y="2.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.2" y="-3.9" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="NX5032">
+<wire x1="2.5" y1="-1.2172" x2="2.2172" y2="-1.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.2172" y1="-1.6" x2="-2.2172" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.2172" y1="-1.6" x2="-2.5" y2="-1.2172" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.5" y1="-1.2172" x2="-2.5" y2="1.3764" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.3764" x2="-2.2764" y2="1.6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.2764" y1="1.6" x2="2.1838" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.1838" y1="1.6" x2="2.5" y2="1.2838" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.5" y1="1.2838" x2="2.5" y2="-1.2172" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.3" x2="1.4" y2="1.3" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.3" x2="2" y2="0.6" width="0.127" layer="21" curve="-89.967269"/>
+<wire x1="2" y1="0.6" x2="2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="2" y1="-0.8" x2="1.4" y2="-1.3" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.4" y1="-1.3" x2="-1.3" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.3" x2="-2" y2="-0.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2" y1="-0.7" x2="-2" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.7" x2="-1.4" y2="1.3" width="0.127" layer="21" curve="-90"/>
+<smd name="P$1" x="2" y="0" dx="2" dy="2.4" layer="1"/>
+<smd name="P$2" x="-2" y="0" dx="2" dy="2.4" layer="1" rot="R180"/>
+<text x="-2.6" y="1.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3" y="-3.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="XTAL3215">
+<wire x1="1.6" y1="-0.4172" x2="1.3172" y2="-0.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.3172" y1="-0.7" x2="-1.3172" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.3172" y1="-0.7" x2="-1.6" y2="-0.4172" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.6" y1="-0.4172" x2="-1.6" y2="0.4764" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.4764" x2="-1.3764" y2="0.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.3764" y1="0.7" x2="1.2838" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.2838" y1="0.7" x2="1.6" y2="0.3838" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.6" y1="0.3838" x2="1.6" y2="-0.4172" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.4" x2="1" y2="0.4" width="0.127" layer="21"/>
+<wire x1="1" y1="0.4" x2="1.3" y2="0.1" width="0.127" layer="21" curve="-89.961816"/>
+<wire x1="1.3" y1="0.1" x2="1.3" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-0.1" x2="1" y2="-0.4" width="0.127" layer="21" curve="-90"/>
+<wire x1="1" y1="-0.4" x2="-1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.4" x2="-1.3" y2="-0.2" width="0.127" layer="21" curve="-90"/>
+<wire x1="-1.3" y1="-0.2" x2="-1.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0.1" x2="-1.1" y2="0.4" width="0.127" layer="21" curve="-90.03821"/>
+<smd name="P$1" x="1.2" y="0" dx="1.1" dy="1.9" layer="1"/>
+<smd name="P$2" x="-1.2" y="0" dx="1.1" dy="1.9" layer="1" rot="R180"/>
+<text x="-2.3" y="-2.2" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.6" y="1.2" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -1487,6 +1574,18 @@ type 0309, grid 2.5 mm</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="XTAL">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="3.81" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2110,6 +2209,42 @@ type 0309, grid 2.5 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="XTAL" prefix="X" uservalue="yes">
+<description>Low cost SMT crystals, no capacitors included
+&lt;p&gt;http://www.ladyada.net/library/eagle&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NX8045" package="NX8045">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NX5032" package="NX5032">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3.2X1.5" package="XTAL3215">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -2221,142 +2356,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CRYSTAL-PTH-2X6-CYL">
-<description>&lt;h3&gt;2x6mm Cylindrical Can (Radial) PTH Crystal&lt;/h3&gt;
-
-&lt;p&gt;Example product: &lt;a href="https://www.sparkfun.com/products/540"&gt;32kHz crystal&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ecsxtal.com/store/pdf/ECS-3x8.pdf"&gt;Example datasheet&lt;/a&gt; (ECS-2X6)&lt;/p&gt;</description>
-<wire x1="-0.889" y1="1.651" x2="0.889" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="7.747" x2="1.016" y2="7.493" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.016" y1="7.493" x2="-0.762" y2="7.747" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="7.747" x2="0.762" y2="7.747" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="1.651" x2="0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.032" x2="1.016" y2="7.493" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.651" x2="-0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.032" x2="-0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.032" x2="-1.016" y2="7.493" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.762" x2="0.508" y2="1.143" width="0.4064" layer="21"/>
-<wire x1="-0.508" y1="0.762" x2="-0.508" y2="1.27" width="0.4064" layer="21"/>
-<wire x1="0.635" y1="0.635" x2="1.27" y2="0" width="0.4064" layer="51"/>
-<wire x1="-0.635" y1="0.635" x2="-1.27" y2="0" width="0.4064" layer="51"/>
-<wire x1="-0.508" y1="4.953" x2="-0.508" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="4.572" x2="-0.508" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="4.572" x2="0.508" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="4.953" x2="0.508" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="5.334" x2="0" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="4.191" x2="0" y2="4.191" width="0.1524" layer="21"/>
-<wire x1="0" y1="4.191" x2="0" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="0" y1="4.191" x2="0.508" y2="4.191" width="0.1524" layer="21"/>
-<wire x1="0" y1="5.334" x2="0" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="0" y1="5.334" x2="0.508" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.032" x2="0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="2.032" x2="-0.889" y2="2.032" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.6764"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" diameter="1.6764"/>
-<rectangle x1="0.3048" y1="1.016" x2="0.7112" y2="1.6002" layer="21"/>
-<rectangle x1="-0.7112" y1="1.016" x2="-0.3048" y2="1.6002" layer="21"/>
-<rectangle x1="-1.778" y1="0.762" x2="1.778" y2="8.382" layer="43"/>
-<text x="-1.27" y="4.572" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.27" y="4.572" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CRYSTAL-SMD-2X6-CYL">
-<description>&lt;h3&gt;6.0x2.0mm Cylindrical Can (Radial) SMD Crystal&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://cfm.citizen.co.jp/english/product/pdf/CMR200T.pdf"&gt;Example&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="X1" x="-1.27" y="0" dx="1" dy="2.5" layer="1"/>
-<smd name="X2" x="1.27" y="0" dx="1" dy="2.5" layer="1"/>
-<smd name="SHEILD" x="0" y="5.08" dx="2.5" dy="6" layer="1"/>
-<text x="0" y="8.255" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<wire x1="-1.27" y1="-1" x2="-1.27" y2="1" width="0.3" layer="51"/>
-<wire x1="-1.27" y1="1" x2="-0.6" y2="1" width="0.3" layer="51"/>
-<wire x1="-0.6" y1="1" x2="-0.6" y2="2" width="0.3" layer="51"/>
-<wire x1="-0.6" y1="2" x2="-0.5" y2="2" width="0.127" layer="51"/>
-<wire x1="1.27" y1="-1" x2="1.27" y2="1" width="0.3" layer="51"/>
-<wire x1="1.27" y1="1" x2="0.6" y2="1" width="0.3" layer="51"/>
-<wire x1="0.6" y1="1" x2="0.6" y2="2" width="0.3" layer="51"/>
-<wire x1="0.6" y1="2" x2="0.5" y2="2" width="0.127" layer="51"/>
-<polygon width="0.1" layer="51">
-<vertex x="-1" y="8"/>
-<vertex x="-1" y="2"/>
-<vertex x="1" y="2"/>
-<vertex x="1" y="8"/>
-</polygon>
-</package>
-<package name="CRYSTAL-PTH-2X6-CYL-KIT">
-<description>&lt;h3&gt;2x6mm Cylindrical Can (Radial) PTH Crystal&lt;/h3&gt;
-
-This is the "KIT" version, which has limited top masking for improved ease of assembly.
-
-&lt;p&gt;Example product: &lt;a href="https://www.sparkfun.com/products/540"&gt;32kHz crystal&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ecsxtal.com/store/pdf/ECS-3x8.pdf"&gt;Example datasheet&lt;/a&gt; (ECS-2X6)&lt;/p&gt;</description>
-<wire x1="-0.889" y1="1.651" x2="0.889" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="7.747" x2="1.016" y2="7.493" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.016" y1="7.493" x2="-0.762" y2="7.747" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="7.747" x2="0.762" y2="7.747" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="1.651" x2="0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.032" x2="1.016" y2="7.493" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.651" x2="-0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.032" x2="-0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="2.032" x2="-1.016" y2="7.493" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.762" x2="0.508" y2="1.143" width="0.4064" layer="21"/>
-<wire x1="-0.508" y1="0.762" x2="-0.508" y2="1.27" width="0.4064" layer="21"/>
-<wire x1="0.635" y1="0.635" x2="1.27" y2="0" width="0.4064" layer="51"/>
-<wire x1="-0.635" y1="0.635" x2="-1.27" y2="0" width="0.4064" layer="51"/>
-<wire x1="-0.508" y1="4.953" x2="-0.508" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="4.572" x2="-0.508" y2="4.572" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="4.572" x2="0.508" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="4.953" x2="0.508" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="5.334" x2="0" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="4.191" x2="0" y2="4.191" width="0.1524" layer="21"/>
-<wire x1="0" y1="4.191" x2="0" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="0" y1="4.191" x2="0.508" y2="4.191" width="0.1524" layer="21"/>
-<wire x1="0" y1="5.334" x2="0" y2="5.842" width="0.1524" layer="21"/>
-<wire x1="0" y1="5.334" x2="0.508" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.032" x2="0.889" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="2.032" x2="-0.889" y2="2.032" width="0.1524" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.6764" stop="no"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" diameter="1.6764" stop="no"/>
-<rectangle x1="0.3048" y1="1.016" x2="0.7112" y2="1.6002" layer="21"/>
-<rectangle x1="-0.7112" y1="1.016" x2="-0.3048" y2="1.6002" layer="21"/>
-<rectangle x1="-1.778" y1="0.762" x2="1.778" y2="8.382" layer="43"/>
-<circle x="-1.27" y="0" radius="0.508" width="0" layer="29"/>
-<circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
-<circle x="-1.27" y="0" radius="0.924571875" width="0" layer="30"/>
-<circle x="1.27" y="0" radius="0.915809375" width="0" layer="30"/>
-<text x="-1.27" y="4.572" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.27" y="4.572" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CRYSTAL-SMD-3.2X1.5MM">
-<description>&lt;h3&gt;3.2 x 1.5mm SMD Crystal Package&lt;/h3&gt;
-&lt;p&gt;Example: &lt;a href="http://www.sii.co.jp/en/quartz/files/2013/03/file_PRODUCT_MASTER_50812_GRAPHIC03.pdf"&gt;SX-32S&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="-1.25" y="0" dx="1" dy="1.8" layer="1"/>
-<smd name="P$2" x="1.25" y="0" dx="1" dy="1.8" layer="1"/>
-<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.127" layer="51"/>
-<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="0.85" x2="0.5" y2="0.85" width="0.2032" layer="21"/>
-<wire x1="0.5" y1="-0.85" x2="-0.5" y2="-0.85" width="0.2032" layer="21"/>
-<text x="0" y="1.043" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.043" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="CRYSTAL-SMD-MC-146">
-<description>&lt;h3&gt;7x1.5mm MC-146 Flat Lead SMD Crystal&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-156_en.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="0.35" y1="0" x2="7.05" y2="0" width="0.127" layer="51"/>
-<wire x1="7.05" y1="0" x2="7.05" y2="1.5" width="0.127" layer="51"/>
-<wire x1="7.05" y1="1.5" x2="0.35" y2="1.5" width="0.127" layer="51"/>
-<wire x1="0.35" y1="1.5" x2="0.35" y2="0" width="0.127" layer="51"/>
-<smd name="P$1" x="0.6" y="0.3" dx="1.2" dy="0.6" layer="1"/>
-<smd name="P$2" x="0.6" y="1.2" dx="1.2" dy="0.6" layer="1"/>
-<smd name="NC2" x="6.9" y="0.3" dx="1.2" dy="0.6" layer="1"/>
-<smd name="NC1" x="6.9" y="1.2" dx="1.2" dy="0.6" layer="1"/>
-<text x="3.81" y="1.851" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="3.81" y="-0.327" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<wire x1="7.05" y1="-0.2" x2="0.35" y2="-0.2" width="0.2032" layer="21"/>
-<wire x1="0.35" y1="1.7" x2="7.05" y2="1.7" width="0.2032" layer="21"/>
-</package>
 <package name="SO08-0.15">
 <description>&lt;h3&gt;8-Pin SOIC 150mil&lt;/h3&gt;
 &lt;p&gt;0.154" (3.9mm) width. Fits JEDEC packages (narrow SOIC-8).&lt;/p&gt;
@@ -2395,23 +2394,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </package>
 </packages>
 <symbols>
-<symbol name="CRYSTAL">
-<description>&lt;h3&gt;Crystal (no ground pin)&lt;/h3&gt;</description>
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="0" y="2.032" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.032" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="DS1307">
 <description>&lt;h3&gt;Maxim DS1307 - I2C Real-time clock (RTC)&lt;/h3&gt;</description>
 <wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
@@ -2431,82 +2413,6 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRYSTAL-32.768KHZ" prefix="Y" uservalue="yes">
-<description>&lt;h3&gt;32.768kHz Crystal&lt;/h3&gt;
-&lt;p&gt;&lt;ul&gt;&lt;li&gt;Frequency: 32.768kHz&lt;/li&gt;
-&lt;li&gt;Frequency Stability: &amp;plusmn;20ppm&lt;/li&gt;
-&lt;li&gt;Load Capacitance: 12.5pF (PTH-2X6 &amp; SMD-3.2X1.5), 6pF (SMD-2X6)&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11734”&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13990”&gt;SparkFun nRF52832 Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12708”&gt;SparkFun Real Time Clock Module&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH-2X6" package="CRYSTAL-PTH-2X6-CYL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="XTAL-10112"/>
-<attribute name="VALUE" value="32.768kHz"/>
-</technology>
-</technologies>
-</device>
-<device name="SMD-2X6" package="CRYSTAL-SMD-2X6-CYL">
-<connects>
-<connect gate="G$1" pin="1" pad="X1"/>
-<connect gate="G$1" pin="2" pad="X2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="XTAL-07894"/>
-<attribute name="VALUE" value="32.768kHz"/>
-</technology>
-</technologies>
-</device>
-<device name="PTH-2X6-KIT" package="CRYSTAL-PTH-2X6-CYL-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="XTAL-10112"/>
-<attribute name="VALUE" value="32.768kHz"/>
-</technology>
-</technologies>
-</device>
-<device name="SMD-3.2X1.5" package="CRYSTAL-SMD-3.2X1.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="XTAL-13062"/>
-<attribute name="VALUE" value="32.768kHz"/>
-</technology>
-</technologies>
-</device>
-<device name="SMD-MC146" package="CRYSTAL-SMD-MC-146">
-<connects>
-<connect gate="G$1" pin="1" pad="P$2"/>
-<connect gate="G$1" pin="2" pad="P$1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="XTAL-09342"/>
-<attribute name="VALUE" value="32.768kHz"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DS1307" prefix="U">
 <description>&lt;h3&gt;Maxim DS1307 - I2C Real-time clock (RTC)&lt;/h3&gt;
 
@@ -2539,7 +2445,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 </deviceset>
 </devicesets>
 </library>
-<library name="rcl" urn="urn:adsk.eagle:library:334">
+<library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -3588,7 +3494,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" library_version="11">
+<package name="C0402">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -3604,7 +3510,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0504" urn="urn:adsk.eagle:footprint:23122/1" library_version="11">
+<package name="C0504">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3620,7 +3526,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2794" y1="-0.6223" x2="0.6594" y2="0.6276" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:23123/1" library_version="11">
+<package name="C0603">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3636,7 +3542,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:23124/1" library_version="11">
+<package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -3652,7 +3558,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C1206" urn="urn:adsk.eagle:footprint:23125/1" library_version="11">
+<package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3668,7 +3574,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="C1210" urn="urn:adsk.eagle:footprint:23126/1" library_version="11">
+<package name="C1210">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
@@ -3684,7 +3590,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="C1310" urn="urn:adsk.eagle:footprint:23127/1" library_version="11">
+<package name="C1310">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3700,7 +3606,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2794" y1="-0.6223" x2="0.6594" y2="0.6276" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.3" x2="0.1001" y2="0.3" layer="35"/>
 </package>
-<package name="C1608" urn="urn:adsk.eagle:footprint:23128/1" library_version="11">
+<package name="C1608">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3716,7 +3622,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C1812" urn="urn:adsk.eagle:footprint:23129/1" library_version="11">
+<package name="C1812">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
@@ -3732,7 +3638,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="1.4478" y1="-1.651" x2="2.3978" y2="1.649" layer="51"/>
 <rectangle x1="-0.3" y1="-0.4001" x2="0.3" y2="0.4001" layer="35"/>
 </package>
-<package name="C1825" urn="urn:adsk.eagle:footprint:23130/1" library_version="11">
+<package name="C1825">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="3.483" x2="2.973" y2="3.483" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-3.483" x2="-2.973" y2="-3.483" width="0.0508" layer="39"/>
@@ -3748,7 +3654,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="1.4478" y1="-3.3528" x2="2.3978" y2="3.3472" layer="51"/>
 <rectangle x1="-0.7" y1="-0.7" x2="0.7" y2="0.7" layer="35"/>
 </package>
-<package name="C2012" urn="urn:adsk.eagle:footprint:23131/1" library_version="11">
+<package name="C2012">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -3764,7 +3670,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C3216" urn="urn:adsk.eagle:footprint:23132/1" library_version="11">
+<package name="C3216">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -3780,7 +3686,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.3" y1="-0.5001" x2="0.3" y2="0.5001" layer="35"/>
 </package>
-<package name="C3225" urn="urn:adsk.eagle:footprint:23133/1" library_version="11">
+<package name="C3225">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
@@ -3796,7 +3702,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
-<package name="C4532" urn="urn:adsk.eagle:footprint:23134/1" library_version="11">
+<package name="C4532">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="1.983" x2="2.973" y2="1.983" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-1.983" x2="-2.973" y2="-1.983" width="0.0508" layer="39"/>
@@ -3812,7 +3718,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="1.4478" y1="-1.651" x2="2.3978" y2="1.649" layer="51"/>
 <rectangle x1="-0.4001" y1="-0.7" x2="0.4001" y2="0.7" layer="35"/>
 </package>
-<package name="C4564" urn="urn:adsk.eagle:footprint:23135/1" library_version="11">
+<package name="C4564">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-2.973" y1="3.483" x2="2.973" y2="3.483" width="0.0508" layer="39"/>
 <wire x1="2.973" y1="-3.483" x2="-2.973" y2="-3.483" width="0.0508" layer="39"/>
@@ -3828,7 +3734,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="1.4478" y1="-3.3528" x2="2.3978" y2="3.3472" layer="51"/>
 <rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
 </package>
-<package name="C025-024X044" urn="urn:adsk.eagle:footprint:23136/1" library_version="11">
+<package name="C025-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="21"/>
@@ -3848,7 +3754,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <text x="-1.778" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.778" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025-025X050" urn="urn:adsk.eagle:footprint:23137/1" library_version="11">
+<package name="C025-025X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm, outline 2.5 x 5 mm</description>
 <wire x1="-2.159" y1="1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
@@ -3872,7 +3778,7 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <text x="-2.286" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025-030X050" urn="urn:adsk.eagle:footprint:23138/1" library_version="11">
+<package name="C025-030X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm, outline 3 x 5 mm</description>
 <wire x1="-2.159" y1="1.524" x2="2.159" y2="1.524" width="0.1524" layer="21"/>
@@ -3896,7 +3802,7 @@ grid 2.5 mm, outline 3 x 5 mm</description>
 <text x="-2.286" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025-040X050" urn="urn:adsk.eagle:footprint:23139/1" library_version="11">
+<package name="C025-040X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm, outline 4 x 5 mm</description>
 <wire x1="-2.159" y1="1.905" x2="2.159" y2="1.905" width="0.1524" layer="21"/>
@@ -3920,7 +3826,7 @@ grid 2.5 mm, outline 4 x 5 mm</description>
 <text x="-2.286" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.429" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025-050X050" urn="urn:adsk.eagle:footprint:23140/1" library_version="11">
+<package name="C025-050X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm, outline 5 x 5 mm</description>
 <wire x1="-2.159" y1="2.286" x2="2.159" y2="2.286" width="0.1524" layer="21"/>
@@ -3944,7 +3850,7 @@ grid 2.5 mm, outline 5 x 5 mm</description>
 <text x="-2.286" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025-060X050" urn="urn:adsk.eagle:footprint:23141/1" library_version="11">
+<package name="C025-060X050">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm, outline 6 x 5 mm</description>
 <wire x1="-2.159" y1="2.794" x2="2.159" y2="2.794" width="0.1524" layer="21"/>
@@ -3968,7 +3874,7 @@ grid 2.5 mm, outline 6 x 5 mm</description>
 <text x="-2.286" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.032" y="-2.413" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025_050-024X070" urn="urn:adsk.eagle:footprint:23142/1" library_version="11">
+<package name="C025_050-024X070">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 mm + 5 mm, outline 2.4 x 7 mm</description>
 <wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="51"/>
@@ -3996,7 +3902,7 @@ grid 2.5 mm + 5 mm, outline 2.4 x 7 mm</description>
 <text x="-3.81" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025_050-025X075" urn="urn:adsk.eagle:footprint:23143/1" library_version="11">
+<package name="C025_050-025X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 + 5 mm, outline 2.5 x 7.5 mm</description>
 <wire x1="-2.159" y1="1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
@@ -4031,7 +3937,7 @@ grid 2.5 + 5 mm, outline 2.5 x 7.5 mm</description>
 <text x="-2.159" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.159" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025_050-035X075" urn="urn:adsk.eagle:footprint:23144/1" library_version="11">
+<package name="C025_050-035X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <wire x1="-2.159" y1="1.778" x2="2.159" y2="1.778" width="0.1524" layer="21"/>
@@ -4066,7 +3972,7 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <text x="-2.286" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025_050-045X075" urn="urn:adsk.eagle:footprint:23145/1" library_version="11">
+<package name="C025_050-045X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 + 5 mm, outline 4.5 x 7.5 mm</description>
 <wire x1="-2.159" y1="2.286" x2="2.159" y2="2.286" width="0.1524" layer="21"/>
@@ -4101,7 +4007,7 @@ grid 2.5 + 5 mm, outline 4.5 x 7.5 mm</description>
 <text x="-2.286" y="2.667" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C025_050-055X075" urn="urn:adsk.eagle:footprint:23146/1" library_version="11">
+<package name="C025_050-055X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.5 + 5 mm, outline 5.5 x 7.5 mm</description>
 <wire x1="-2.159" y1="2.794" x2="2.159" y2="2.794" width="0.1524" layer="21"/>
@@ -4136,7 +4042,7 @@ grid 2.5 + 5 mm, outline 5.5 x 7.5 mm</description>
 <text x="-2.286" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.032" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050-024X044" urn="urn:adsk.eagle:footprint:23147/1" library_version="11">
+<package name="C050-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 2.4 x 4.4 mm</description>
 <wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="51"/>
@@ -4160,7 +4066,7 @@ grid 5 mm, outline 2.4 x 4.4 mm</description>
 <rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
 <rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
 </package>
-<package name="C050-025X075" urn="urn:adsk.eagle:footprint:23148/1" library_version="11">
+<package name="C050-025X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 2.5 x 7.5 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
@@ -4182,7 +4088,7 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <text x="-3.429" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050-045X075" urn="urn:adsk.eagle:footprint:23149/1" library_version="11">
+<package name="C050-045X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 4.5 x 7.5 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
@@ -4204,7 +4110,7 @@ grid 5 mm, outline 4.5 x 7.5 mm</description>
 <text x="-3.556" y="2.667" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.556" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050-030X075" urn="urn:adsk.eagle:footprint:23150/1" library_version="11">
+<package name="C050-030X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 3 x 7.5 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
@@ -4226,7 +4132,7 @@ grid 5 mm, outline 3 x 7.5 mm</description>
 <text x="-3.556" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.556" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050-050X075" urn="urn:adsk.eagle:footprint:23151/1" library_version="11">
+<package name="C050-050X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 5 x 7.5 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
@@ -4248,7 +4154,7 @@ grid 5 mm, outline 5 x 7.5 mm</description>
 <text x="-3.429" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050-055X075" urn="urn:adsk.eagle:footprint:23152/1" library_version="11">
+<package name="C050-055X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 5.5 x 7.5 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
@@ -4270,7 +4176,7 @@ grid 5 mm, outline 5.5 x 7.5 mm</description>
 <text x="-3.429" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.302" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050-075X075" urn="urn:adsk.eagle:footprint:23153/1" library_version="11">
+<package name="C050-075X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="-1.524" y1="0" x2="-0.4572" y2="0" width="0.1524" layer="21"/>
@@ -4292,7 +4198,7 @@ grid 5 mm, outline 7.5 x 7.5 mm</description>
 <text x="-3.429" y="4.064" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050H075X075" urn="urn:adsk.eagle:footprint:23154/1" library_version="11">
+<package name="C050H075X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 Horizontal, grid 5 mm, outline 7.5 x 7.5 mm</description>
 <wire x1="-3.683" y1="7.112" x2="-3.683" y2="0.508" width="0.1524" layer="21"/>
@@ -4320,7 +4226,7 @@ Horizontal, grid 5 mm, outline 7.5 x 7.5 mm</description>
 <rectangle x1="-2.794" y1="0.127" x2="-2.286" y2="0.508" layer="51"/>
 <rectangle x1="2.286" y1="0.127" x2="2.794" y2="0.508" layer="51"/>
 </package>
-<package name="C075-032X103" urn="urn:adsk.eagle:footprint:23155/1" library_version="11">
+<package name="C075-032X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 7.5 mm, outline 3.2 x 10.3 mm</description>
 <wire x1="4.826" y1="1.524" x2="-4.826" y2="1.524" width="0.1524" layer="21"/>
@@ -4342,7 +4248,7 @@ grid 7.5 mm, outline 3.2 x 10.3 mm</description>
 <text x="-4.826" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.826" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C075-042X103" urn="urn:adsk.eagle:footprint:23156/1" library_version="11">
+<package name="C075-042X103">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <wire x1="4.826" y1="2.032" x2="-4.826" y2="2.032" width="0.1524" layer="21"/>
@@ -4364,7 +4270,7 @@ grid 7.5 mm, outline 4.2 x 10.3 mm</description>
 <text x="-4.699" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.635" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C075-052X106" urn="urn:adsk.eagle:footprint:23157/1" library_version="11">
+<package name="C075-052X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <wire x1="4.953" y1="2.54" x2="-4.953" y2="2.54" width="0.1524" layer="21"/>
@@ -4386,7 +4292,7 @@ grid 7.5 mm, outline 5.2 x 10.6 mm</description>
 <text x="-4.826" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.635" y="-2.032" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C102-043X133" urn="urn:adsk.eagle:footprint:23158/1" library_version="11">
+<package name="C102-043X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.2 mm, outline 4.3 x 13.3 mm</description>
 <wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.4064" layer="21"/>
@@ -4408,7 +4314,7 @@ grid 10.2 mm, outline 4.3 x 13.3 mm</description>
 <text x="-6.096" y="2.413" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.524" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C102-054X133" urn="urn:adsk.eagle:footprint:23159/1" library_version="11">
+<package name="C102-054X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.2 mm, outline 5.4 x 13.3 mm</description>
 <wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.4064" layer="21"/>
@@ -4430,7 +4336,7 @@ grid 10.2 mm, outline 5.4 x 13.3 mm</description>
 <text x="-6.096" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.524" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C102-064X133" urn="urn:adsk.eagle:footprint:23160/1" library_version="11">
+<package name="C102-064X133">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.2 mm, outline 6.4 x 13.3 mm</description>
 <wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.4064" layer="21"/>
@@ -4452,7 +4358,7 @@ grid 10.2 mm, outline 6.4 x 13.3 mm</description>
 <text x="-6.096" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.524" y="-2.032" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C102_152-062X184" urn="urn:adsk.eagle:footprint:23161/1" library_version="11">
+<package name="C102_152-062X184">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 10.2 mm + 15.2 mm, outline 6.2 x 18.4 mm</description>
 <wire x1="-2.286" y1="1.27" x2="-2.286" y2="0" width="0.4064" layer="21"/>
@@ -4481,7 +4387,7 @@ grid 10.2 mm + 15.2 mm, outline 6.2 x 18.4 mm</description>
 <text x="-5.969" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.524" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C150-054X183" urn="urn:adsk.eagle:footprint:23162/1" library_version="11">
+<package name="C150-054X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15 mm, outline 5.4 x 18.3 mm</description>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.4064" layer="21"/>
@@ -4503,7 +4409,7 @@ grid 15 mm, outline 5.4 x 18.3 mm</description>
 <text x="-8.382" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.032" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C150-064X183" urn="urn:adsk.eagle:footprint:23163/1" library_version="11">
+<package name="C150-064X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15 mm, outline 6.4 x 18.3 mm</description>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.4064" layer="21"/>
@@ -4525,7 +4431,7 @@ grid 15 mm, outline 6.4 x 18.3 mm</description>
 <text x="-8.509" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.032" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C150-072X183" urn="urn:adsk.eagle:footprint:23164/1" library_version="11">
+<package name="C150-072X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15 mm, outline 7.2 x 18.3 mm</description>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.4064" layer="21"/>
@@ -4547,7 +4453,7 @@ grid 15 mm, outline 7.2 x 18.3 mm</description>
 <text x="-8.509" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C150-084X183" urn="urn:adsk.eagle:footprint:23165/1" library_version="11">
+<package name="C150-084X183">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15 mm, outline 8.4 x 18.3 mm</description>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.4064" layer="21"/>
@@ -4569,7 +4475,7 @@ grid 15 mm, outline 8.4 x 18.3 mm</description>
 <text x="-8.509" y="4.445" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C150-091X182" urn="urn:adsk.eagle:footprint:23166/1" library_version="11">
+<package name="C150-091X182">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 15 mm, outline 9.1 x 18.2 mm</description>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="0" width="0.4064" layer="21"/>
@@ -4591,7 +4497,7 @@ grid 15 mm, outline 9.1 x 18.2 mm</description>
 <text x="-8.509" y="4.826" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C225-062X268" urn="urn:adsk.eagle:footprint:23167/1" library_version="11">
+<package name="C225-062X268">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.5 mm, outline 6.2 x 26.8 mm</description>
 <wire x1="-12.827" y1="3.048" x2="12.827" y2="3.048" width="0.1524" layer="21"/>
@@ -4613,7 +4519,7 @@ grid 22.5 mm, outline 6.2 x 26.8 mm</description>
 <text x="-12.7" y="3.429" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C225-074X268" urn="urn:adsk.eagle:footprint:23168/1" library_version="11">
+<package name="C225-074X268">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.5 mm, outline 7.4 x 26.8 mm</description>
 <wire x1="-12.827" y1="3.556" x2="12.827" y2="3.556" width="0.1524" layer="21"/>
@@ -4635,7 +4541,7 @@ grid 22.5 mm, outline 7.4 x 26.8 mm</description>
 <text x="-12.827" y="3.937" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C225-087X268" urn="urn:adsk.eagle:footprint:23169/1" library_version="11">
+<package name="C225-087X268">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.5 mm, outline 8.7 x 26.8 mm</description>
 <wire x1="-12.827" y1="4.318" x2="12.827" y2="4.318" width="0.1524" layer="21"/>
@@ -4657,7 +4563,7 @@ grid 22.5 mm, outline 8.7 x 26.8 mm</description>
 <text x="-12.827" y="4.699" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C225-108X268" urn="urn:adsk.eagle:footprint:23170/1" library_version="11">
+<package name="C225-108X268">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.5 mm, outline 10.8 x 26.8 mm</description>
 <wire x1="-12.827" y1="5.334" x2="12.827" y2="5.334" width="0.1524" layer="21"/>
@@ -4679,7 +4585,7 @@ grid 22.5 mm, outline 10.8 x 26.8 mm</description>
 <text x="-12.954" y="5.715" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C225-113X268" urn="urn:adsk.eagle:footprint:23171/1" library_version="11">
+<package name="C225-113X268">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 22.5 mm, outline 11.3 x 26.8 mm</description>
 <wire x1="-12.827" y1="5.588" x2="12.827" y2="5.588" width="0.1524" layer="21"/>
@@ -4701,7 +4607,7 @@ grid 22.5 mm, outline 11.3 x 26.8 mm</description>
 <text x="-12.954" y="5.969" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C275-093X316" urn="urn:adsk.eagle:footprint:23172/1" library_version="11">
+<package name="C275-093X316">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 27.5 mm, outline 9.3 x 31.6 mm</description>
 <wire x1="-15.24" y1="4.572" x2="15.24" y2="4.572" width="0.1524" layer="21"/>
@@ -4723,7 +4629,7 @@ grid 27.5 mm, outline 9.3 x 31.6 mm</description>
 <text x="-15.24" y="4.953" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C275-113X316" urn="urn:adsk.eagle:footprint:23173/1" library_version="11">
+<package name="C275-113X316">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 27.5 mm, outline 11.3 x 31.6 mm</description>
 <wire x1="-15.24" y1="5.588" x2="15.24" y2="5.588" width="0.1524" layer="21"/>
@@ -4745,7 +4651,7 @@ grid 27.5 mm, outline 11.3 x 31.6 mm</description>
 <text x="-15.24" y="5.969" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C275-134X316" urn="urn:adsk.eagle:footprint:23174/1" library_version="11">
+<package name="C275-134X316">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 27.5 mm, outline 13.4 x 31.6 mm</description>
 <wire x1="-15.24" y1="6.604" x2="15.24" y2="6.604" width="0.1524" layer="21"/>
@@ -4767,7 +4673,7 @@ grid 27.5 mm, outline 13.4 x 31.6 mm</description>
 <text x="-15.24" y="6.985" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C275-205X316" urn="urn:adsk.eagle:footprint:23175/1" library_version="11">
+<package name="C275-205X316">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 27.5 mm, outline 20.5 x 31.6 mm</description>
 <wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="21"/>
@@ -4789,7 +4695,7 @@ grid 27.5 mm, outline 20.5 x 31.6 mm</description>
 <text x="-15.24" y="10.541" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-4.318" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C325-137X374" urn="urn:adsk.eagle:footprint:23176/1" library_version="11">
+<package name="C325-137X374">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 32.5 mm, outline 13.7 x 37.4 mm</description>
 <wire x1="-14.2748" y1="0" x2="-12.7" y2="0" width="0.1524" layer="21"/>
@@ -4807,7 +4713,7 @@ grid 32.5 mm, outline 13.7 x 37.4 mm</description>
 <text x="-18.2372" y="7.0612" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.8458" y="-2.8702" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C325-162X374" urn="urn:adsk.eagle:footprint:23177/1" library_version="11">
+<package name="C325-162X374">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 32.5 mm, outline 16.2 x 37.4 mm</description>
 <wire x1="-14.2748" y1="0" x2="-12.7" y2="0" width="0.1524" layer="21"/>
@@ -4825,7 +4731,7 @@ grid 32.5 mm, outline 16.2 x 37.4 mm</description>
 <text x="-18.3642" y="8.3312" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.8458" y="-2.8702" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C325-182X374" urn="urn:adsk.eagle:footprint:23178/1" library_version="11">
+<package name="C325-182X374">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 32.5 mm, outline 18.2 x 37.4 mm</description>
 <wire x1="-14.2748" y1="0" x2="-12.7" y2="0" width="0.1524" layer="21"/>
@@ -4843,7 +4749,7 @@ grid 32.5 mm, outline 18.2 x 37.4 mm</description>
 <text x="-18.3642" y="9.3472" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.8458" y="-2.8702" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C375-192X418" urn="urn:adsk.eagle:footprint:23179/1" library_version="11">
+<package name="C375-192X418">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 37.5 mm, outline 19.2 x 41.8 mm</description>
 <wire x1="-20.32" y1="8.509" x2="20.32" y2="8.509" width="0.1524" layer="21"/>
@@ -4865,7 +4771,7 @@ grid 37.5 mm, outline 19.2 x 41.8 mm</description>
 <text x="-20.447" y="8.89" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C375-203X418" urn="urn:adsk.eagle:footprint:23180/1" library_version="11">
+<package name="C375-203X418">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 37.5 mm, outline 20.3 x 41.8 mm</description>
 <wire x1="-20.32" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="21"/>
@@ -4887,7 +4793,7 @@ grid 37.5 mm, outline 20.3 x 41.8 mm</description>
 <text x="-20.32" y="10.541" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C050-035X075" urn="urn:adsk.eagle:footprint:23181/1" library_version="11">
+<package name="C050-035X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 3.5 x 7.5 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
@@ -4909,7 +4815,7 @@ grid 5 mm, outline 3.5 x 7.5 mm</description>
 <text x="-3.556" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.556" y="-3.429" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C375-155X418" urn="urn:adsk.eagle:footprint:23182/1" library_version="11">
+<package name="C375-155X418">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 37.5 mm, outline 15.5 x 41.8 mm</description>
 <wire x1="-20.32" y1="7.62" x2="20.32" y2="7.62" width="0.1524" layer="21"/>
@@ -4931,7 +4837,7 @@ grid 37.5 mm, outline 15.5 x 41.8 mm</description>
 <text x="-20.447" y="8.001" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C075-063X106" urn="urn:adsk.eagle:footprint:23183/1" library_version="11">
+<package name="C075-063X106">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 7.5 mm, outline 6.3 x 10.6 mm</description>
 <wire x1="4.953" y1="3.048" x2="-4.953" y2="3.048" width="0.1524" layer="21"/>
@@ -4953,7 +4859,7 @@ grid 7.5 mm, outline 6.3 x 10.6 mm</description>
 <text x="-4.826" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-0.635" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C275-154X316" urn="urn:adsk.eagle:footprint:23184/1" library_version="11">
+<package name="C275-154X316">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 27.5 mm, outline 15.4 x 31.6 mm</description>
 <wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.1524" layer="21"/>
@@ -4975,7 +4881,7 @@ grid 27.5 mm, outline 15.4 x 31.6 mm</description>
 <text x="-15.24" y="8.001" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C275-173X316" urn="urn:adsk.eagle:footprint:23185/1" library_version="11">
+<package name="C275-173X316">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 27.5 mm, outline 17.3 x 31.6 mm</description>
 <wire x1="-15.24" y1="8.509" x2="15.24" y2="8.509" width="0.1524" layer="21"/>
@@ -4997,7 +4903,7 @@ grid 27.5 mm, outline 17.3 x 31.6 mm</description>
 <text x="-15.24" y="8.89" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="C0402K" urn="urn:adsk.eagle:footprint:23186/1" library_version="11">
+<package name="C0402K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1005</description>
 <wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="51"/>
@@ -5009,7 +4915,7 @@ Metric Code Size 1005</description>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="51"/>
 <rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 </package>
-<package name="C0603K" urn="urn:adsk.eagle:footprint:23187/1" library_version="11">
+<package name="C0603K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0603 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1608</description>
 <wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
@@ -5021,7 +4927,7 @@ Metric Code Size 1608</description>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
-<package name="C0805K" urn="urn:adsk.eagle:footprint:23188/1" library_version="11">
+<package name="C0805K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0805 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 2012</description>
 <wire x1="-0.925" y1="0.6" x2="0.925" y2="0.6" width="0.1016" layer="51"/>
@@ -5033,7 +4939,7 @@ Metric Code Size 2012</description>
 <rectangle x1="-1" y1="-0.65" x2="-0.5" y2="0.65" layer="51"/>
 <rectangle x1="0.5" y1="-0.65" x2="1" y2="0.65" layer="51"/>
 </package>
-<package name="C1206K" urn="urn:adsk.eagle:footprint:23189/1" library_version="11">
+<package name="C1206K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1206 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 3216</description>
 <wire x1="-1.525" y1="0.75" x2="1.525" y2="0.75" width="0.1016" layer="51"/>
@@ -5045,7 +4951,7 @@ Metric Code Size 3216</description>
 <rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
 <rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
 </package>
-<package name="C1210K" urn="urn:adsk.eagle:footprint:23190/1" library_version="11">
+<package name="C1210K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1210 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 3225</description>
 <wire x1="-1.525" y1="1.175" x2="1.525" y2="1.175" width="0.1016" layer="51"/>
@@ -5057,7 +4963,7 @@ Metric Code Size 3225</description>
 <rectangle x1="-1.6" y1="-1.25" x2="-1.1" y2="1.25" layer="51"/>
 <rectangle x1="1.1" y1="-1.25" x2="1.6" y2="1.25" layer="51"/>
 </package>
-<package name="C1812K" urn="urn:adsk.eagle:footprint:23191/1" library_version="11">
+<package name="C1812K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1812 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 4532</description>
 <wire x1="-2.175" y1="1.525" x2="2.175" y2="1.525" width="0.1016" layer="51"/>
@@ -5069,7 +4975,7 @@ Metric Code Size 4532</description>
 <rectangle x1="-2.25" y1="-1.6" x2="-1.65" y2="1.6" layer="51"/>
 <rectangle x1="1.65" y1="-1.6" x2="2.25" y2="1.6" layer="51"/>
 </package>
-<package name="C1825K" urn="urn:adsk.eagle:footprint:23192/1" library_version="11">
+<package name="C1825K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1825 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 4564</description>
 <wire x1="-1.525" y1="3.125" x2="1.525" y2="3.125" width="0.1016" layer="51"/>
@@ -5081,7 +4987,7 @@ Metric Code Size 4564</description>
 <rectangle x1="-1.6" y1="-3.2" x2="-1.1" y2="3.2" layer="51"/>
 <rectangle x1="1.1" y1="-3.2" x2="1.6" y2="3.2" layer="51"/>
 </package>
-<package name="C2220K" urn="urn:adsk.eagle:footprint:23193/1" library_version="11">
+<package name="C2220K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 2220 reflow solder&lt;/b&gt;&lt;p&gt;Metric Code Size 5650</description>
 <wire x1="-2.725" y1="2.425" x2="2.725" y2="2.425" width="0.1016" layer="51"/>
 <wire x1="2.725" y1="-2.425" x2="-2.725" y2="-2.425" width="0.1016" layer="51"/>
@@ -5092,7 +4998,7 @@ Metric Code Size 4564</description>
 <rectangle x1="-2.8" y1="-2.5" x2="-2.2" y2="2.5" layer="51"/>
 <rectangle x1="2.2" y1="-2.5" x2="2.8" y2="2.5" layer="51"/>
 </package>
-<package name="C2225K" urn="urn:adsk.eagle:footprint:23194/1" library_version="11">
+<package name="C2225K">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 2225 reflow solder&lt;/b&gt;&lt;p&gt;Metric Code Size 5664</description>
 <wire x1="-2.725" y1="3.075" x2="2.725" y2="3.075" width="0.1016" layer="51"/>
 <wire x1="2.725" y1="-3.075" x2="-2.725" y2="-3.075" width="0.1016" layer="51"/>
@@ -5103,7 +5009,7 @@ Metric Code Size 4564</description>
 <rectangle x1="-2.8" y1="-3.15" x2="-2.2" y2="3.15" layer="51"/>
 <rectangle x1="2.2" y1="-3.15" x2="2.8" y2="3.15" layer="51"/>
 </package>
-<package name="HPC0201" urn="urn:adsk.eagle:footprint:25783/1" library_version="11">
+<package name="HPC0201">
 <description>&lt;b&gt; &lt;/b&gt;&lt;p&gt;
 Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <smd name="1" x="-0.18" y="0" dx="0.2" dy="0.35" layer="1"/>
@@ -5112,7 +5018,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
 </package>
-<package name="C0201" urn="urn:adsk.eagle:footprint:23196/1" library_version="11">
+<package name="C0201">
 <description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
 <smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
 <smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
@@ -5123,7 +5029,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
 <rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
 </package>
-<package name="C1808" urn="urn:adsk.eagle:footprint:23197/1" library_version="11">
+<package name="C1808">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 Source: AVX .. aphvc.pdf</description>
 <wire x1="-1.4732" y1="0.9502" x2="1.4732" y2="0.9502" width="0.1016" layer="51"/>
@@ -5135,7 +5041,7 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-2.275" y1="-1.015" x2="-1.225" y2="1.015" layer="51"/>
 <rectangle x1="1.225" y1="-1.015" x2="2.275" y2="1.015" layer="51"/>
 </package>
-<package name="C3640" urn="urn:adsk.eagle:footprint:23198/1" library_version="11">
+<package name="C3640">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 Source: AVX .. aphvc.pdf</description>
 <wire x1="-3.8322" y1="5.0496" x2="3.8322" y2="5.0496" width="0.1016" layer="51"/>
@@ -5147,7 +5053,7 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-4.57" y1="-5.1" x2="-3.05" y2="5.1" layer="51"/>
 <rectangle x1="3.05" y1="-5.1" x2="4.5688" y2="5.1" layer="51"/>
 </package>
-<package name="C01005" urn="urn:adsk.eagle:footprint:23199/1" library_version="11">
+<package name="C01005">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
@@ -5160,545 +5066,8 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="11">
-<description>Chip, 1.00 X 0.50 X 0.60 mm body
-&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0504" urn="urn:adsk.eagle:package:23624/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0504"/>
-</packageinstances>
-</package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0603"/>
-</packageinstances>
-</package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:23617/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0805"/>
-</packageinstances>
-</package3d>
-<package3d name="C1206" urn="urn:adsk.eagle:package:23618/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1206"/>
-</packageinstances>
-</package3d>
-<package3d name="C1210" urn="urn:adsk.eagle:package:23619/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1210"/>
-</packageinstances>
-</package3d>
-<package3d name="C1310" urn="urn:adsk.eagle:package:23620/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1310"/>
-</packageinstances>
-</package3d>
-<package3d name="C1608" urn="urn:adsk.eagle:package:23621/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1608"/>
-</packageinstances>
-</package3d>
-<package3d name="C1812" urn="urn:adsk.eagle:package:23622/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1812"/>
-</packageinstances>
-</package3d>
-<package3d name="C1825" urn="urn:adsk.eagle:package:23623/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1825"/>
-</packageinstances>
-</package3d>
-<package3d name="C2012" urn="urn:adsk.eagle:package:23625/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C2012"/>
-</packageinstances>
-</package3d>
-<package3d name="C3216" urn="urn:adsk.eagle:package:23628/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C3216"/>
-</packageinstances>
-</package3d>
-<package3d name="C3225" urn="urn:adsk.eagle:package:23655/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C3225"/>
-</packageinstances>
-</package3d>
-<package3d name="C4532" urn="urn:adsk.eagle:package:23627/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C4532"/>
-</packageinstances>
-</package3d>
-<package3d name="C4564" urn="urn:adsk.eagle:package:23648/2" type="model" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C4564"/>
-</packageinstances>
-</package3d>
-<package3d name="C025-024X044" urn="urn:adsk.eagle:package:23630/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 mm, outline 2.4 x 4.4 mm</description>
-<packageinstances>
-<packageinstance name="C025-024X044"/>
-</packageinstances>
-</package3d>
-<package3d name="C025-025X050" urn="urn:adsk.eagle:package:23629/2" type="model" library_version="11">
-<description>CAPACITOR
-grid 2.5 mm, outline 2.5 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-025X050"/>
-</packageinstances>
-</package3d>
-<package3d name="C025-030X050" urn="urn:adsk.eagle:package:23631/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 mm, outline 3 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-030X050"/>
-</packageinstances>
-</package3d>
-<package3d name="C025-040X050" urn="urn:adsk.eagle:package:23634/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 mm, outline 4 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-040X050"/>
-</packageinstances>
-</package3d>
-<package3d name="C025-050X050" urn="urn:adsk.eagle:package:23633/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 mm, outline 5 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-050X050"/>
-</packageinstances>
-</package3d>
-<package3d name="C025-060X050" urn="urn:adsk.eagle:package:23632/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 mm, outline 6 x 5 mm</description>
-<packageinstances>
-<packageinstance name="C025-060X050"/>
-</packageinstances>
-</package3d>
-<package3d name="C025_050-024X070" urn="urn:adsk.eagle:package:23639/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 mm + 5 mm, outline 2.4 x 7 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-024X070"/>
-</packageinstances>
-</package3d>
-<package3d name="C025_050-025X075" urn="urn:adsk.eagle:package:23641/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 + 5 mm, outline 2.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-025X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C025_050-035X075" urn="urn:adsk.eagle:package:23651/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-035X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C025_050-045X075" urn="urn:adsk.eagle:package:23635/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 + 5 mm, outline 4.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-045X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C025_050-055X075" urn="urn:adsk.eagle:package:23636/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 2.5 + 5 mm, outline 5.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C025_050-055X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-024X044" urn="urn:adsk.eagle:package:23643/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 2.4 x 4.4 mm</description>
-<packageinstances>
-<packageinstance name="C050-024X044"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-025X075" urn="urn:adsk.eagle:package:23637/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 2.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-025X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-045X075" urn="urn:adsk.eagle:package:23638/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 4.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-045X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-030X075" urn="urn:adsk.eagle:package:23640/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 3 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-030X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-050X075" urn="urn:adsk.eagle:package:23665/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-050X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-055X075" urn="urn:adsk.eagle:package:23642/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 5.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-055X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-075X075" urn="urn:adsk.eagle:package:23645/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 7.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-075X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C050H075X075" urn="urn:adsk.eagle:package:23644/1" type="box" library_version="11">
-<description>CAPACITOR
-Horizontal, grid 5 mm, outline 7.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050H075X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C075-032X103" urn="urn:adsk.eagle:package:23646/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 7.5 mm, outline 3.2 x 10.3 mm</description>
-<packageinstances>
-<packageinstance name="C075-032X103"/>
-</packageinstances>
-</package3d>
-<package3d name="C075-042X103" urn="urn:adsk.eagle:package:23656/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 7.5 mm, outline 4.2 x 10.3 mm</description>
-<packageinstances>
-<packageinstance name="C075-042X103"/>
-</packageinstances>
-</package3d>
-<package3d name="C075-052X106" urn="urn:adsk.eagle:package:23650/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 7.5 mm, outline 5.2 x 10.6 mm</description>
-<packageinstances>
-<packageinstance name="C075-052X106"/>
-</packageinstances>
-</package3d>
-<package3d name="C102-043X133" urn="urn:adsk.eagle:package:23647/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 10.2 mm, outline 4.3 x 13.3 mm</description>
-<packageinstances>
-<packageinstance name="C102-043X133"/>
-</packageinstances>
-</package3d>
-<package3d name="C102-054X133" urn="urn:adsk.eagle:package:23649/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 10.2 mm, outline 5.4 x 13.3 mm</description>
-<packageinstances>
-<packageinstance name="C102-054X133"/>
-</packageinstances>
-</package3d>
-<package3d name="C102-064X133" urn="urn:adsk.eagle:package:23653/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 10.2 mm, outline 6.4 x 13.3 mm</description>
-<packageinstances>
-<packageinstance name="C102-064X133"/>
-</packageinstances>
-</package3d>
-<package3d name="C102_152-062X184" urn="urn:adsk.eagle:package:23652/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 10.2 mm + 15.2 mm, outline 6.2 x 18.4 mm</description>
-<packageinstances>
-<packageinstance name="C102_152-062X184"/>
-</packageinstances>
-</package3d>
-<package3d name="C150-054X183" urn="urn:adsk.eagle:package:23669/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 15 mm, outline 5.4 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-054X183"/>
-</packageinstances>
-</package3d>
-<package3d name="C150-064X183" urn="urn:adsk.eagle:package:23654/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 15 mm, outline 6.4 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-064X183"/>
-</packageinstances>
-</package3d>
-<package3d name="C150-072X183" urn="urn:adsk.eagle:package:23657/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 15 mm, outline 7.2 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-072X183"/>
-</packageinstances>
-</package3d>
-<package3d name="C150-084X183" urn="urn:adsk.eagle:package:23658/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 15 mm, outline 8.4 x 18.3 mm</description>
-<packageinstances>
-<packageinstance name="C150-084X183"/>
-</packageinstances>
-</package3d>
-<package3d name="C150-091X182" urn="urn:adsk.eagle:package:23659/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 15 mm, outline 9.1 x 18.2 mm</description>
-<packageinstances>
-<packageinstance name="C150-091X182"/>
-</packageinstances>
-</package3d>
-<package3d name="C225-062X268" urn="urn:adsk.eagle:package:23661/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 22.5 mm, outline 6.2 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-062X268"/>
-</packageinstances>
-</package3d>
-<package3d name="C225-074X268" urn="urn:adsk.eagle:package:23660/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 22.5 mm, outline 7.4 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-074X268"/>
-</packageinstances>
-</package3d>
-<package3d name="C225-087X268" urn="urn:adsk.eagle:package:23662/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 22.5 mm, outline 8.7 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-087X268"/>
-</packageinstances>
-</package3d>
-<package3d name="C225-108X268" urn="urn:adsk.eagle:package:23663/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 22.5 mm, outline 10.8 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-108X268"/>
-</packageinstances>
-</package3d>
-<package3d name="C225-113X268" urn="urn:adsk.eagle:package:23667/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 22.5 mm, outline 11.3 x 26.8 mm</description>
-<packageinstances>
-<packageinstance name="C225-113X268"/>
-</packageinstances>
-</package3d>
-<package3d name="C275-093X316" urn="urn:adsk.eagle:package:23701/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 27.5 mm, outline 9.3 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-093X316"/>
-</packageinstances>
-</package3d>
-<package3d name="C275-113X316" urn="urn:adsk.eagle:package:23673/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 27.5 mm, outline 11.3 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-113X316"/>
-</packageinstances>
-</package3d>
-<package3d name="C275-134X316" urn="urn:adsk.eagle:package:23664/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 27.5 mm, outline 13.4 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-134X316"/>
-</packageinstances>
-</package3d>
-<package3d name="C275-205X316" urn="urn:adsk.eagle:package:23666/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 27.5 mm, outline 20.5 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-205X316"/>
-</packageinstances>
-</package3d>
-<package3d name="C325-137X374" urn="urn:adsk.eagle:package:23672/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 32.5 mm, outline 13.7 x 37.4 mm</description>
-<packageinstances>
-<packageinstance name="C325-137X374"/>
-</packageinstances>
-</package3d>
-<package3d name="C325-162X374" urn="urn:adsk.eagle:package:23670/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 32.5 mm, outline 16.2 x 37.4 mm</description>
-<packageinstances>
-<packageinstance name="C325-162X374"/>
-</packageinstances>
-</package3d>
-<package3d name="C325-182X374" urn="urn:adsk.eagle:package:23668/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 32.5 mm, outline 18.2 x 37.4 mm</description>
-<packageinstances>
-<packageinstance name="C325-182X374"/>
-</packageinstances>
-</package3d>
-<package3d name="C375-192X418" urn="urn:adsk.eagle:package:23674/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 37.5 mm, outline 19.2 x 41.8 mm</description>
-<packageinstances>
-<packageinstance name="C375-192X418"/>
-</packageinstances>
-</package3d>
-<package3d name="C375-203X418" urn="urn:adsk.eagle:package:23671/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 37.5 mm, outline 20.3 x 41.8 mm</description>
-<packageinstances>
-<packageinstance name="C375-203X418"/>
-</packageinstances>
-</package3d>
-<package3d name="C050-035X075" urn="urn:adsk.eagle:package:23677/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 5 mm, outline 3.5 x 7.5 mm</description>
-<packageinstances>
-<packageinstance name="C050-035X075"/>
-</packageinstances>
-</package3d>
-<package3d name="C375-155X418" urn="urn:adsk.eagle:package:23675/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 37.5 mm, outline 15.5 x 41.8 mm</description>
-<packageinstances>
-<packageinstance name="C375-155X418"/>
-</packageinstances>
-</package3d>
-<package3d name="C075-063X106" urn="urn:adsk.eagle:package:23678/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 7.5 mm, outline 6.3 x 10.6 mm</description>
-<packageinstances>
-<packageinstance name="C075-063X106"/>
-</packageinstances>
-</package3d>
-<package3d name="C275-154X316" urn="urn:adsk.eagle:package:23685/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 27.5 mm, outline 15.4 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-154X316"/>
-</packageinstances>
-</package3d>
-<package3d name="C275-173X316" urn="urn:adsk.eagle:package:23676/1" type="box" library_version="11">
-<description>CAPACITOR
-grid 27.5 mm, outline 17.3 x 31.6 mm</description>
-<packageinstances>
-<packageinstance name="C275-173X316"/>
-</packageinstances>
-</package3d>
-<package3d name="C0402K" urn="urn:adsk.eagle:package:23679/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 0204 reflow solder
-Metric Code Size 1005</description>
-<packageinstances>
-<packageinstance name="C0402K"/>
-</packageinstances>
-</package3d>
-<package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 0603 reflow solder
-Metric Code Size 1608</description>
-<packageinstances>
-<packageinstance name="C0603K"/>
-</packageinstances>
-</package3d>
-<package3d name="C0805K" urn="urn:adsk.eagle:package:23681/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 0805 reflow solder
-Metric Code Size 2012</description>
-<packageinstances>
-<packageinstance name="C0805K"/>
-</packageinstances>
-</package3d>
-<package3d name="C1206K" urn="urn:adsk.eagle:package:23682/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 1206 reflow solder
-Metric Code Size 3216</description>
-<packageinstances>
-<packageinstance name="C1206K"/>
-</packageinstances>
-</package3d>
-<package3d name="C1210K" urn="urn:adsk.eagle:package:23683/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 1210 reflow solder
-Metric Code Size 3225</description>
-<packageinstances>
-<packageinstance name="C1210K"/>
-</packageinstances>
-</package3d>
-<package3d name="C1812K" urn="urn:adsk.eagle:package:23686/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 1812 reflow solder
-Metric Code Size 4532</description>
-<packageinstances>
-<packageinstance name="C1812K"/>
-</packageinstances>
-</package3d>
-<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
-Metric Code Size 4564</description>
-<packageinstances>
-<packageinstance name="C1825K"/>
-</packageinstances>
-</package3d>
-<package3d name="C2220K" urn="urn:adsk.eagle:package:23687/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 2220 reflow solderMetric Code Size 5650</description>
-<packageinstances>
-<packageinstance name="C2220K"/>
-</packageinstances>
-</package3d>
-<package3d name="C2225K" urn="urn:adsk.eagle:package:23692/2" type="model" library_version="11">
-<description>Ceramic Chip Capacitor KEMET 2225 reflow solderMetric Code Size 5664</description>
-<packageinstances>
-<packageinstance name="C2225K"/>
-</packageinstances>
-</package3d>
-<package3d name="HPC0201" urn="urn:adsk.eagle:package:26213/1" type="box" library_version="11">
-<description> 
-Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
-<packageinstances>
-<packageinstance name="HPC0201"/>
-</packageinstances>
-</package3d>
-<package3d name="C0201" urn="urn:adsk.eagle:package:23690/2" type="model" library_version="11">
-<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
-<packageinstances>
-<packageinstance name="C0201"/>
-</packageinstances>
-</package3d>
-<package3d name="C1808" urn="urn:adsk.eagle:package:23689/2" type="model" library_version="11">
-<description>CAPACITOR
-Source: AVX .. aphvc.pdf</description>
-<packageinstances>
-<packageinstance name="C1808"/>
-</packageinstances>
-</package3d>
-<package3d name="C3640" urn="urn:adsk.eagle:package:23693/2" type="model" library_version="11">
-<description>CAPACITOR
-Source: AVX .. aphvc.pdf</description>
-<packageinstances>
-<packageinstance name="C3640"/>
-</packageinstances>
-</package3d>
-<package3d name="C01005" urn="urn:adsk.eagle:package:23691/1" type="box" library_version="11">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C01005"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="C-EU" urn="urn:adsk.eagle:symbol:23120/1" library_version="11">
+<symbol name="C-EU">
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-2.032" width="0.1524" layer="94"/>
 <text x="1.524" y="0.381" size="1.778" layer="95">&gt;NAME</text>
@@ -5710,7 +5079,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/46" prefix="C" uservalue="yes" library_version="11">
+<deviceset name="C-EU" prefix="C" uservalue="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -5721,9 +5090,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="18" constant="no"/>
@@ -5736,9 +5102,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="2" constant="no"/>
@@ -5751,9 +5114,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23616/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="73" constant="no"/>
@@ -5766,9 +5126,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23617/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="88" constant="no"/>
@@ -5781,9 +5138,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23618/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="54" constant="no"/>
@@ -5796,9 +5150,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23619/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -5811,9 +5162,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -5826,9 +5174,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23621/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="3" constant="no"/>
@@ -5841,9 +5186,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23622/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="3" constant="no"/>
@@ -5856,9 +5198,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23623/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -5871,9 +5210,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23625/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -5886,9 +5222,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23628/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="4" constant="no"/>
@@ -5901,9 +5234,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23655/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -5916,9 +5246,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23627/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -5931,9 +5258,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23648/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -5946,9 +5270,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23630/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="56" constant="no"/>
@@ -5961,9 +5282,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23629/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="65" constant="no"/>
@@ -5976,9 +5294,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23631/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="14" constant="no"/>
@@ -5991,9 +5306,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23634/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="4" constant="no"/>
@@ -6006,9 +5318,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23633/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="16" constant="no"/>
@@ -6021,9 +5330,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23632/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6036,9 +5342,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23639/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6051,9 +5354,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23641/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6066,9 +5366,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23651/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6081,9 +5378,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23635/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6096,9 +5390,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23636/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="1" constant="no"/>
@@ -6111,9 +5402,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23643/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="33" constant="no"/>
@@ -6126,9 +5414,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23637/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="29" constant="no"/>
@@ -6141,9 +5426,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23638/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="1" constant="no"/>
@@ -6156,9 +5438,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23640/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="9" constant="no"/>
@@ -6171,9 +5450,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23665/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="1" constant="no"/>
@@ -6186,9 +5462,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23642/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="1" constant="no"/>
@@ -6201,9 +5474,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23645/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6216,9 +5486,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23644/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6231,9 +5498,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23646/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6246,9 +5510,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23656/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6261,9 +5522,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23650/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="4" constant="no"/>
@@ -6276,9 +5534,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23647/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="1" constant="no"/>
@@ -6291,9 +5546,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23649/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6306,9 +5558,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23653/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6321,9 +5570,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23652/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6336,9 +5582,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23669/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="3" constant="no"/>
@@ -6351,9 +5594,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23654/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6366,9 +5606,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23657/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6381,9 +5618,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23658/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6396,9 +5630,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23659/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6411,9 +5642,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23661/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6426,9 +5654,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23660/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="2" constant="no"/>
@@ -6441,9 +5666,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23662/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6456,9 +5678,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23663/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6471,9 +5690,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23667/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6486,9 +5702,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23701/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6501,9 +5714,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23673/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6516,9 +5726,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23664/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6531,9 +5738,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23666/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6546,9 +5750,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23672/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6561,9 +5762,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23670/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6576,9 +5774,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23668/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6591,9 +5786,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23674/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6606,9 +5798,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23671/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6621,9 +5810,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23677/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="2" constant="no"/>
@@ -6636,9 +5822,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23675/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6651,9 +5834,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23678/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6666,9 +5846,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23685/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6681,9 +5858,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23676/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6696,9 +5870,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23679/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="15" constant="no"/>
@@ -6711,9 +5882,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23680/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="30" constant="no"/>
@@ -6726,9 +5894,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23681/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="52" constant="no"/>
@@ -6741,9 +5906,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23682/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="13" constant="no"/>
@@ -6756,9 +5918,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23683/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6771,9 +5930,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23686/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6786,9 +5942,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6801,9 +5954,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23687/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6816,9 +5966,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23692/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6831,9 +5978,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26213/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6846,9 +5990,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23690/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6861,9 +6002,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23689/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6876,9 +6014,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23693/2"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6891,9 +6026,6 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23691/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
@@ -6916,8 +6048,7 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="U1" library="SparkFun-Clocks" deviceset="DS1307" device="Z"/>
-<part name="Q1" library="SparkFun-Clocks" deviceset="CRYSTAL-32.768KHZ" device="SMD-3.2X1.5" value="32.768kHz"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="BAT1" library="Itead_BP_110825.lbr" deviceset="BATTERY_1236_C" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -6925,52 +6056,53 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0603" value="2.2k"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
+<part name="X1" library="adafruit" deviceset="XTAL" device="-3.2X1.5" value="32.768KHZ"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="8.89" y="-25.4" size="6.4516" layer="95">RTC</text>
-<wire x1="-17.78" y1="21.59" x2="60.96" y2="21.59" width="0.1524" layer="95"/>
-<wire x1="60.96" y1="21.59" x2="60.96" y2="-29.21" width="0.1524" layer="95"/>
+<text x="13.97" y="-22.86" size="6.4516" layer="95">RTC</text>
+<wire x1="-17.78" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="95"/>
+<wire x1="60.96" y1="27.94" x2="60.96" y2="-29.21" width="0.1524" layer="95"/>
 <wire x1="60.96" y1="-29.21" x2="-17.78" y2="-29.21" width="0.1524" layer="95"/>
-<wire x1="-17.78" y1="21.59" x2="-17.78" y2="-57.15" width="0.1524" layer="95"/>
+<wire x1="-17.78" y1="27.94" x2="-17.78" y2="-29.21" width="0.1524" layer="95"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="15.24" y="8.89" smashed="yes">
 <attribute name="NAME" x="7.62" y="14.224" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="7.62" y="1.016" size="1.778" layer="95" font="vector" align="top-left"/>
 </instance>
-<instance part="Q1" gate="G$1" x="-5.08" y="10.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="-9.144" y="7.62" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-8.89" y="16.51" size="1.778" layer="96" rot="R270"/>
+<instance part="C1" gate="G$1" x="49.53" y="-1.27" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.086" y="-1.651" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="56.896" y="3.429" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C1" gate="G$1" x="46.99" y="7.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.546" y="7.239" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="54.356" y="12.319" size="1.778" layer="96" rot="R180"/>
+<instance part="GND1" gate="1" x="49.53" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="46.99" y="-12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="46.99" y="1.27" smashed="yes">
-<attribute name="VALUE" x="44.45" y="-1.27" size="1.778" layer="96"/>
+<instance part="BAT1" gate="G$1" x="0" y="-3.81" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.08" y="3.81" size="0.762" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="-5.08" y="3.81" size="0.762" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="BAT1" gate="G$1" x="0" y="-6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.08" y="1.27" size="0.762" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="-5.08" y="1.27" size="0.762" layer="96" ratio="10" rot="R270"/>
+<instance part="GND2" gate="1" x="0" y="-20.32" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="-24.13" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="0" y="-21.59" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="-21.59" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="38.1" y="-2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.37" y="-2.3114" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="-4.572" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="35.56" y="-1.27" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.83" y="-1.0414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="36.83" y="-3.302" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="38.1" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="40.64" y="12.9286" size="1.778" layer="95"/>
+<attribute name="VALUE" x="40.64" y="10.668" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="31.75" y="-3.81" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.02" y="-3.5814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="33.02" y="-5.842" size="1.778" layer="96"/>
+<instance part="P+1" gate="VCC" x="38.1" y="-12.7" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="44.45" y="-12.7" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="P+1" gate="VCC" x="31.75" y="-15.24" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="38.1" y="-15.24" size="1.778" layer="96" rot="MR0"/>
+<instance part="P+2" gate="VCC" x="49.53" y="24.13" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="43.18" y="24.13" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="P+2" gate="VCC" x="35.56" y="-13.97" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="41.91" y="-13.97" size="1.778" layer="96" rot="MR0"/>
+<instance part="X1" gate="G$1" x="-6.35" y="11.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="-12.7" y="11.43" size="1.27" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-10.16" y="7.62" size="1.27" layer="96" font="vector" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -6980,84 +6112,27 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="46.99" y1="3.81" x2="46.99" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="-7.62" x2="49.53" y2="-3.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="BAT1" gate="G$1" pin="-"/>
-<wire x1="0" y1="-19.05" x2="0" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="0" y1="-17.78" x2="0" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="5.08" y1="3.81" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-15.24" x2="0" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="0" y="-15.24"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="-11.43" x2="35.56" y2="-6.35" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="31.75" y1="-12.7" x2="31.75" y2="-8.89" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-12.7" x2="0" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="0" y="-12.7"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="SDA"/>
-<wire x1="31.75" y1="1.27" x2="31.75" y2="3.81" width="0.1524" layer="91"/>
-<wire x1="31.75" y1="3.81" x2="27.94" y2="3.81" width="0.1524" layer="91"/>
-<wire x1="31.75" y1="3.81" x2="34.29" y2="3.81" width="0.1524" layer="91"/>
-<junction x="31.75" y="3.81"/>
-<label x="30.48" y="-1.27" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
-<wire x1="27.94" y1="6.35" x2="35.56" y2="6.35" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="6.35" x2="35.56" y2="3.81" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="6.35" x2="41.91" y2="6.35" width="0.1524" layer="91"/>
-<junction x="35.56" y="6.35"/>
-<label x="41.91" y="8.89" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="SQW" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="SQW"/>
-<wire x1="27.94" y1="8.89" x2="31.75" y2="8.89" width="0.1524" layer="91"/>
-<label x="30.48" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="X1"/>
-<wire x1="5.08" y1="11.43" x2="5.08" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="16.51" x2="-5.08" y2="16.51" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="16.51" x2="-5.08" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="8.89" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="X2"/>
-<wire x1="2.54" y1="8.89" x2="5.08" y2="8.89" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="27.94" y1="11.43" x2="27.94" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="16.51" x2="46.99" y2="16.51" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="46.99" y1="16.51" x2="46.99" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="6.35" x2="38.1" y2="6.35" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="6.35" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="6.35" x2="45.72" y2="6.35" width="0.1524" layer="91"/>
+<junction x="38.1" y="6.35"/>
+<label x="40.64" y="6.35" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7065,7 +6140,65 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U1" gate="G$1" pin="VBATT"/>
 <pinref part="BAT1" gate="G$1" pin="+"/>
 <wire x1="5.08" y1="6.35" x2="0" y2="6.35" width="0.1524" layer="91"/>
-<wire x1="0" y1="6.35" x2="0" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="0" y1="6.35" x2="0" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SQW" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SQW"/>
+<wire x1="27.94" y1="8.89" x2="34.29" y2="8.89" width="0.1524" layer="91"/>
+<label x="29.21" y="8.89" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="27.94" y1="11.43" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="17.78" x2="49.53" y2="17.78" width="0.1524" layer="91"/>
+<junction x="38.1" y="17.78"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="49.53" y1="17.78" x2="49.53" y2="21.59" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="49.53" y1="17.78" x2="49.53" y2="3.81" width="0.1524" layer="91"/>
+<junction x="49.53" y="17.78"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="38.1" y1="-7.62" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SDA"/>
+<label x="33.02" y="1.27" size="1.778" layer="95" rot="R180"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="3.81" x2="38.1" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="3.81" x2="38.1" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="3.81" x2="45.72" y2="3.81" width="0.1524" layer="91"/>
+<junction x="38.1" y="3.81"/>
+<label x="40.64" y="3.81" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="P$2"/>
+<wire x1="-6.35" y1="16.51" x2="-2.54" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="16.51" x2="-2.54" y2="11.43" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="X1"/>
+<wire x1="-2.54" y1="11.43" x2="5.08" y2="11.43" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="X2"/>
+<wire x1="5.08" y1="8.89" x2="-2.54" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="8.89" x2="-2.54" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="P$1"/>
+<wire x1="-2.54" y1="5.08" x2="-6.35" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="6.35" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -7073,21 +6206,4 @@ Source: AVX .. aphvc.pdf</description>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
