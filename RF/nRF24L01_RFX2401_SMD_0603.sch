@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -3873,7 +3873,7 @@ This is the very popular, low cost, very low power RF transceiver from Nordic Se
 </deviceset>
 </devicesets>
 </library>
-<library name="crystal-geyer_V1_0" urn="urn:adsk.eagle:library:203">
+<library name="crystal-geyer_V1_0">
 <description>&lt;BR&gt;&lt;big&gt;&lt;b&gt;GEYER ELECTRONIC --- Your producer for quartz crystals and oscillators&lt;/B&gt;&lt;/big&gt;&lt;br&gt;&lt;Hr&gt;
 
 Version 1.0, 07.06.2016
@@ -3904,7 +3904,7 @@ Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
 &lt;HR&gt;
 Copyright: Geyer-Electronic</description>
 <packages>
-<package name="3.2X2.5_KX-7" urn="urn:adsk.eagle:footprint:11870/1" library_version="1">
+<package name="3.2X2.5_KX-7">
 <description>4 Pad</description>
 <smd name="4" x="-1.15" y="0.9" dx="1.3" dy="1.1" layer="1"/>
 <smd name="2" x="1.15" y="-0.9" dx="1.3" dy="1.1" layer="1"/>
@@ -3926,7 +3926,7 @@ Copyright: Geyer-Electronic</description>
 <text x="-0.65" y="0.65" size="0.4064" layer="51">KX-7</text>
 <text x="-0.35" y="0.2" size="0.3048" layer="51" ratio="19">RG</text>
 </package>
-<package name="1.6X1.2" urn="urn:adsk.eagle:footprint:11871/1" library_version="1">
+<package name="1.6X1.2">
 <description>4 Pad</description>
 <text x="-0.911" y="0.938" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.911" y="-1.884" size="1.016" layer="27">&gt;VALUE</text>
@@ -3944,7 +3944,7 @@ Copyright: Geyer-Electronic</description>
 <wire x1="-0.07" y1="-0.6" x2="0.07" y2="-0.6" width="0.1524" layer="21"/>
 <circle x="-0.45" y="-0.25" radius="0.2" width="0" layer="51"/>
 </package>
-<package name="2.0X1.6_KX-5" urn="urn:adsk.eagle:footprint:11872/1" library_version="1">
+<package name="2.0X1.6_KX-5">
 <description>4 Pad</description>
 <text x="-1.311" y="1.038" size="1.016" layer="25">&gt;NAME</text>
 <text x="-1.311" y="-2.084" size="1.016" layer="27">&gt;VALUE</text>
@@ -3964,7 +3964,7 @@ Copyright: Geyer-Electronic</description>
 <smd name="4" x="-0.675" y="0.525" dx="0.95" dy="0.8" layer="1"/>
 <circle x="-0.6" y="-0.4" radius="0.2" width="0" layer="51"/>
 </package>
-<package name="2.5X2.0_KX-6" urn="urn:adsk.eagle:footprint:11873/1" library_version="1">
+<package name="2.5X2.0_KX-6">
 <description>4 Pad</description>
 <text x="-1.511" y="1.338" size="1.016" layer="25">&gt;NAME</text>
 <text x="-1.611" y="-2.284" size="1.016" layer="27">&gt;VALUE</text>
@@ -3984,7 +3984,7 @@ Copyright: Geyer-Electronic</description>
 <smd name="4" x="-0.85" y="0.65" dx="1.2" dy="1" layer="1"/>
 <circle x="-0.85" y="-0.6" radius="0.2" width="0" layer="51"/>
 </package>
-<package name="5.0X3.2_KX-9A" urn="urn:adsk.eagle:footprint:11874/1" library_version="1">
+<package name="5.0X3.2_KX-9A">
 <description>4 Pad</description>
 <smd name="4" x="-1.85" y="1.1" dx="1.6" dy="1.25" layer="1"/>
 <smd name="2" x="1.85" y="-1.1" dx="1.6" dy="1.25" layer="1"/>
@@ -4004,7 +4004,7 @@ Copyright: Geyer-Electronic</description>
 <wire x1="-0.95" y1="1.6" x2="0.95" y2="1.6" width="0.1524" layer="21"/>
 <wire x1="-0.95" y1="-1.6" x2="0.95" y2="-1.6" width="0.1524" layer="21"/>
 </package>
-<package name="5.0X3.2_2" urn="urn:adsk.eagle:footprint:11875/1" library_version="1">
+<package name="5.0X3.2_2">
 <description>2 Pad</description>
 <text x="-2.64" y="1.9" size="1.016" layer="25">&gt;NAME</text>
 <text x="-2.64" y="-2.9" size="1.016" layer="27">&gt;VALUE</text>
@@ -4020,7 +4020,7 @@ Copyright: Geyer-Electronic</description>
 <smd name="2" x="1.85" y="0" dx="1.7" dy="3.3" layer="1"/>
 <circle x="-2.04" y="-1.15" radius="0.2" width="0" layer="51"/>
 </package>
-<package name="6.0X3.5_4" urn="urn:adsk.eagle:footprint:11876/1" library_version="1">
+<package name="6.0X3.5_4">
 <description>4 Pad</description>
 <smd name="4" x="-2.2" y="1.25" dx="1.8" dy="1.4" layer="1"/>
 <smd name="2" x="2.2" y="-1.25" dx="1.8" dy="1.4" layer="1"/>
@@ -4040,7 +4040,7 @@ Copyright: Geyer-Electronic</description>
 <wire x1="3" y1="0.45" x2="3" y2="-0.45" width="0.1524" layer="21"/>
 <circle x="-2.54" y="-1.3" radius="0.2" width="0" layer="51"/>
 </package>
-<package name="6.0X3.5_2" urn="urn:adsk.eagle:footprint:11877/1" library_version="1">
+<package name="6.0X3.5_2">
 <description>2 Pad</description>
 <text x="-3.04" y="2.1" size="1.016" layer="25">&gt;NAME</text>
 <text x="-3.04" y="-3.1" size="1.016" layer="27">&gt;VALUE</text>
@@ -4060,7 +4060,7 @@ Copyright: Geyer-Electronic</description>
 <smd name="2" x="2.25" y="0" dx="1.9" dy="2.4" layer="1"/>
 <circle x="-2.34" y="-1.15" radius="0.2" width="0" layer="51"/>
 </package>
-<package name="7.0X5.0" urn="urn:adsk.eagle:footprint:11878/1" library_version="1">
+<package name="7.0X5.0">
 <description>4 Pad</description>
 <smd name="4" x="-3.2" y="1.25" dx="2.2" dy="1.4" layer="1"/>
 <smd name="2" x="3.2" y="-1.25" dx="2.2" dy="1.4" layer="1"/>
@@ -4084,7 +4084,7 @@ Copyright: Geyer-Electronic</description>
 <wire x1="-3.5" y1="-2.5" x2="3.5" y2="-2.5" width="0.2048" layer="21"/>
 <wire x1="3.5" y1="-2.5" x2="3.5" y2="-2.1" width="0.2048" layer="21"/>
 </package>
-<package name="11.6X5.5" urn="urn:adsk.eagle:footprint:11879/1" library_version="1">
+<package name="11.6X5.5">
 <description>4 Pad</description>
 <smd name="4" x="-2.54" y="2" dx="2.4" dy="2" layer="1"/>
 <smd name="2" x="2.54" y="-2" dx="2.4" dy="2" layer="1"/>
@@ -4124,7 +4124,7 @@ Copyright: Geyer-Electronic</description>
 <wire x1="5.3" y1="-2.75" x2="3.9" y2="-2.75" width="0.1524" layer="21"/>
 <wire x1="-1.2" y1="-2.75" x2="1.2" y2="-2.75" width="0.1524" layer="21"/>
 </package>
-<package name="11.4X4.5" urn="urn:adsk.eagle:footprint:11880/1" library_version="1">
+<package name="11.4X4.5">
 <description>2 Pad</description>
 <wire x1="3.429" y1="-2.032" x2="5.109" y2="-1.1429" width="0.0508" layer="21" curve="55.771157"/>
 <wire x1="-5.1091" y1="-1.143" x2="-3.429" y2="-2.032" width="0.0508" layer="21" curve="55.772485"/>
@@ -4170,76 +4170,8 @@ Copyright: Geyer-Electronic</description>
 <text x="-0.34" y="0.85" size="0.3048" layer="51" ratio="19">RG</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="3.2X2.5_KX-7" urn="urn:adsk.eagle:package:11924/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="3.2X2.5_KX-7"/>
-</packageinstances>
-</package3d>
-<package3d name="1.6X1.2" urn="urn:adsk.eagle:package:11925/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="1.6X1.2"/>
-</packageinstances>
-</package3d>
-<package3d name="2.0X1.6_KX-5" urn="urn:adsk.eagle:package:11926/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="2.0X1.6_KX-5"/>
-</packageinstances>
-</package3d>
-<package3d name="2.5X2.0_KX-6" urn="urn:adsk.eagle:package:11928/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="2.5X2.0_KX-6"/>
-</packageinstances>
-</package3d>
-<package3d name="5.0X3.2_KX-9A" urn="urn:adsk.eagle:package:11927/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="5.0X3.2_KX-9A"/>
-</packageinstances>
-</package3d>
-<package3d name="5.0X3.2_2" urn="urn:adsk.eagle:package:11930/1" type="box" library_version="1">
-<description>2 Pad</description>
-<packageinstances>
-<packageinstance name="5.0X3.2_2"/>
-</packageinstances>
-</package3d>
-<package3d name="6.0X3.5_4" urn="urn:adsk.eagle:package:11929/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="6.0X3.5_4"/>
-</packageinstances>
-</package3d>
-<package3d name="6.0X3.5_2" urn="urn:adsk.eagle:package:11931/1" type="box" library_version="1">
-<description>2 Pad</description>
-<packageinstances>
-<packageinstance name="6.0X3.5_2"/>
-</packageinstances>
-</package3d>
-<package3d name="7.0X5.0" urn="urn:adsk.eagle:package:11933/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="7.0X5.0"/>
-</packageinstances>
-</package3d>
-<package3d name="11.6X5.5" urn="urn:adsk.eagle:package:11932/1" type="box" library_version="1">
-<description>4 Pad</description>
-<packageinstances>
-<packageinstance name="11.6X5.5"/>
-</packageinstances>
-</package3d>
-<package3d name="11.4X4.5" urn="urn:adsk.eagle:package:11935/1" type="box" library_version="1">
-<description>2 Pad</description>
-<packageinstances>
-<packageinstance name="11.4X4.5"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="Q" urn="urn:adsk.eagle:symbol:11869/1" library_version="1">
+<symbol name="Q">
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
@@ -4257,7 +4189,7 @@ Copyright: Geyer-Electronic</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KX" urn="urn:adsk.eagle:component:11969/1" prefix="Q" uservalue="yes" library_version="1">
+<deviceset name="KX" prefix="Q" uservalue="yes">
 <description>&lt;P&gt;
 
 &lt;table border=0 cellspacing=0 cellpadding=0 width="80%" cellpaddding=0&gt;
@@ -4446,9 +4378,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11924/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4458,9 +4387,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11925/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4470,9 +4396,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11926/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4482,9 +4405,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11928/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4494,9 +4414,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11927/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4506,9 +4423,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11930/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4518,9 +4432,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11929/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4530,9 +4441,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11931/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4542,9 +4450,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11933/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4554,9 +4459,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1 4"/>
 <connect gate="G$1" pin="2" pad="2 3"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11932/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4566,9 +4468,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11935/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4578,9 +4477,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11935/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10621,7 +10517,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP1" library="SparkFun" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="U$27" library="Testing" deviceset="PAD" device=""/>
 <part name="U$28" library="Testing" deviceset="PAD" device=""/>
-<part name="Q1" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-7" package3d_urn="urn:adsk.eagle:package:11924/1"/>
+<part name="Q1" library="crystal-geyer_V1_0" deviceset="KX" device="-7"/>
 <part name="U$5" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -11187,21 +11083,4 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
