@@ -11613,9 +11613,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="P+7" gate="VCC" x="38.1" y="116.84" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.64" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="L4" gate="G$1" x="48.26" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.18" y="128.27" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.18" y="123.19" size="1.778" layer="96"/>
+<instance part="L4" gate="G$1" x="50.8" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.72" y="128.27" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.72" y="123.19" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="58.42" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.896" y="131.699" size="1.778" layer="95" rot="R180"/>
@@ -12132,7 +12132,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="L4" gate="G$1" pin="1"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="127" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="127" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -12143,7 +12143,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="38.1" y1="119.38" x2="38.1" y2="127" width="0.1524" layer="91"/>
 <junction x="38.1" y="127"/>
 <pinref part="U1" gate="G$1" pin="VDD3P3"/>
-<wire x1="38.1" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
