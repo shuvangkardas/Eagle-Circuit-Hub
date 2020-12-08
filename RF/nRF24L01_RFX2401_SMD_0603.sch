@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -10687,15 +10688,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND11" gate="1" x="214.63" y="92.71" smashed="yes" rot="R180">
 <attribute name="VALUE" x="217.17" y="95.25" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND12" gate="1" x="214.63" y="41.91" smashed="yes">
-<attribute name="VALUE" x="212.09" y="39.37" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="215.9" y="42.926" smashed="yes">
+<attribute name="VALUE" x="213.36" y="40.386" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="236.22" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="231.14" y="63.5" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="228.6" y="63.5" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND13" gate="1" x="234.95" y="54.61" smashed="yes">
-<attribute name="VALUE" x="232.41" y="52.07" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="236.22" y="55.626" smashed="yes">
+<attribute name="VALUE" x="233.68" y="53.086" size="1.778" layer="96"/>
 </instance>
 <instance part="FL1" gate="G$1" x="165.1" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="180.359" y="110.7187" size="2.54633125" layer="95" rot="R180"/>
@@ -10805,8 +10806,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="FL2" gate="G$1" pin="GND_2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="215.9" y1="48.26" x2="215.9" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="46.99" x2="214.63" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="48.26" x2="215.9" y2="45.466" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="FL2" gate="G$1" pin="GND_1"/>
@@ -10817,8 +10817,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="SIGNAL"/>
-<wire x1="234.95" y1="57.15" x2="236.22" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="59.69" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="58.166" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="124.46" x2="144.78" y2="125.73" width="0.1524" layer="91"/>
