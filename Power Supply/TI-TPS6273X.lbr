@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.0.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TPS62730">
+<smd name="VIN" x="-0.1778" y="-0.8382" dx="0.52" dy="0.3" layer="1"/>
+<smd name="GND" x="0.5842" y="-0.8382" dx="0.52" dy="0.3" layer="1"/>
+<smd name="SW" x="-0.1778" y="-0.3302" dx="0.52" dy="0.3" layer="1"/>
+<smd name="ON/BYP" x="0.5842" y="-0.3302" dx="0.52" dy="0.3" layer="1"/>
+<smd name="VOUT" x="0.5842" y="0.1778" dx="0.52" dy="0.3" layer="1"/>
+<smd name="STAT" x="-0.1778" y="0.1778" dx="0.52" dy="0.3" layer="1"/>
+<text x="0.2032" y="-1.2446" size="0.254" layer="26" font="vector" align="center">TPS62730</text>
+<circle x="-0.1778" y="0.635" radius="0.05679375" width="0.127" layer="26"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS62730">
+<pin name="VOUT" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="ON/BYP" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="GND" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="STAT" x="-7.62" y="12.7" length="middle"/>
+<pin name="SW" x="-7.62" y="7.62" length="middle"/>
+<pin name="VIN" x="-7.62" y="2.54" length="middle"/>
+<wire x1="-2.54" y1="17.78" x2="15.24" y2="17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
+<text x="6.604" y="-0.508" size="1.27" layer="95" align="center">TPS62730</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS62730">
+<description>TPS62730:
+Step Down Converter with Bypass Mode for Ultra Low Power Wireless Applications
+
+The TPS62730 is a high frequency synchronous step down DC-DC converter optimized for ultra low power wireless applications. The device is optimized to supply TI&amp;3146;s Low Power Wireless sub 1GHz and 2.4GHz RF transceivers and System-On-Chip-solutions. The TPS62730 reduces the current consumption drawn from the battery during TX and RX mode by a high efficient step down voltage conversion. It provides up to 100mA output current and allows the use of tiny and low cost chip inductors and capacitors. With an input voltage range of 1.9V to 3.9V the device supports Li-primary battery chemistries such as Li-SOCl2, Li-SO2, Li-MnO2 and also two cell alkaline batteries.
+
+The TPS62730 features an Ultra Low Power bypass mode with typical 30nA current consumption to support sleep and low power modes of TI’s CC2540 Low Energy and CC430 System-On-Chip solutions. In this bypass mode, the output capacitor of the DC/DC converter is connected via an integrated typ. 2.1Ω Bypass switch to the battery.
+
+In DC/DC operation mode the device provides a fixed output voltage to the system. With a switch frequency up to 3MHz, the TPS62730 features low output ripple voltage and low noise even with a small 2.2µF output capacitor. The automatic transition into bypass mode during DC/DC operation prevents an increase of output ripple voltage and noise once the DC/DC converter operates close to 100% duty cycle. The device automatically enters bypass mode once the battery voltage falls below the transition threshold VIT BYP. The TPS62730 is available in a 1 × 1.5mm2 6 pin QFN package.</description>
+<gates>
+<gate name="G$1" symbol="TPS62730" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="TPS62730">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ON/BYP" pad="ON/BYP"/>
+<connect gate="G$1" pin="STAT" pad="STAT"/>
+<connect gate="G$1" pin="SW" pad="SW"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
