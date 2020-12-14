@@ -1,25 +1,19 @@
-## SMD Compnent List- Eagle Library
+# Eagle Circuit Hub
 
-#### Base Station 
+## Commonly used Schematic for building circuit board
 
-1. Resistor - R-US_R0804
-2. Capasitor - C-EUC0603
-3. Inductor - L-USL0603
-4. Polar Capacitor - CPOL-USUD-6,3X7
+This is a collection of my schematic for developing designing PCB board in Eagle PCB in a short time. The library contains follwing sub-directory. 
+- Microcontroller 
+- Power Supply 
+- RF
+- RF SOC
+- Timer
+- Sensor
+- Switch 
+- Connectors
+- Memory
 
-#### ESP8266
-
-1. Resistor - R-US_R0804
-2. Capasitor - C-EUC0603
-3. Inductor - L-USL0603
-3. Cystal - (adafruit things) - CRYSTAL-26MHZSMD-3.2X2.5
-4. LDO - AP2112
-5. SPI - (sparkfun-ic-momory) - Flash W25Q32FV
-6. transistor - mmbt - 2222
-
-#### Bolus
-
+## Common SMD Components used
 1. Resistor - R-US_R0603
-2. Capasitor - C-EUC0603
-3. Inductor - L-USL0603
-4. crystal-geyer_V1_0 - KX-7 (KX) 
+2. Capacitor - C-EUC0603
+3. Inductor - L-USL0603 
