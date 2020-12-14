@@ -45,8 +45,8 @@ This is a collection of my schematic for developing designing PCB board in Eagle
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[release-shield]: https://img.shields.io/github/release/shuvangkar/Eagle-Circuit-Hub.svg
-[release-url]: https://github.com/shuvangkar/Eagle-Circuit-Hub
+[release-shield]: https://img.shields.io/github/v/release/shuvangkar/Eagle-Circuit-Hub
+[release-url]: https://img.shields.io/github/v/release/shuvangkar/Eagle-Circuit-Hub
 
 [commits-shield]: https://img.shields.io/github/commits-since/shuvangkar/Eagle-Circuit-Hub/v0.1.0
 [commits-url]: https://github.com/shuvangkar/Eagle-Circuit-Hub/commits/master
