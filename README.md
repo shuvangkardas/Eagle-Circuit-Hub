@@ -1,5 +1,12 @@
 # Eagle Circuit Hub
 
+<!-- Badges -->
+[![GitHub release][release-shield]][release-url]
+[![GitHub commits][commits-shield]][commits-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 ## Commonly used Schematic for building circuit board
 
 This is a collection of my schematic for developing designing PCB board in Eagle PCB in a short time. The library contains follwing sub-directory. 
@@ -35,3 +42,19 @@ This is a collection of my schematic for developing designing PCB board in Eagle
 1. Resistor - R-US_R0603
 2. Capacitor - C-EUC0603
 3. Inductor - L-USL0603 
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[release-shield]: https://img.shields.io/github/release/shuvangkar/Eagle-Circuit-Hub.svg
+[release-url]: https://github.com/shuvangkar/Eagle-Circuit-Hub
+
+[commits-shield]: https://img.shields.io/github/commits-since/shuvangkar/Eagle-Circuit-Hub/v0.1.0
+[commits-url]: https://github.com/shuvangkar/Eagle-Circuit-Hub/commits/master
+
+
+[license-shield]: https://img.shields.io/github/license/shuvangkar/Eagle-Circuit-Hub
+[license-url]: https://github.com/shuvangkar/Eagle-Circuit-Hub/blob/master/LICENSE.txt
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/shuvangkar
