@@ -7046,6 +7046,101 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/msp430fr2433.pdf"&gt; Datas
 </deviceset>
 </devicesets>
 </library>
+<library name="con-amp">
+<description>&lt;b&gt;AMP Connectors&lt;/b&gt;&lt;p&gt;
+RJ45 Jack connectors&lt;br&gt;
+ Based on the previous libraris:
+ &lt;ul&gt;
+ &lt;li&gt;amp.lbr
+ &lt;li&gt;amp-j.lbr
+ &lt;li&gt;amp-mta.lbr
+ &lt;li&gt;amp-nlok.lbr
+ &lt;li&gt;amp-sim.lbr
+ &lt;li&gt;amp-micro-match.lbr
+ &lt;/ul&gt;
+ Sources :
+ &lt;ul&gt;
+ &lt;li&gt;Catalog 82066 Revised 11-95 
+ &lt;li&gt;Product Guide 296785 Rev. 8-99
+ &lt;li&gt;Product Guide CD-ROM 1999
+ &lt;li&gt;www.amp.com
+ &lt;/ul&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="10X06MTA">
+<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;&lt;p&gt;
+Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="-7.62" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-1.27" x2="7.62" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="-7.62" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="7.62" y2="1.27" width="0.1524" layer="21"/>
+<pad name="6" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="-3.2512" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.4762" y="2.2507" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="21"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="21"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="21"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="21"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="21"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MTA-1_6">
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-1.905" x2="-6.35" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-1.905" x2="8.89" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.27" x2="8.89" y2="1.27" width="0.254" layer="94"/>
+<circle x="-5.08" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="10.16" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="-1.27" size="1.27" layer="95">1</text>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="6" x="7.62" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MTA06-100" prefix="J" uservalue="yes">
+<description>&lt;b&gt;AMP connector&lt;/b&gt;&lt;p&gt;
+Connection corrected 2014-09-19</description>
+<gates>
+<gate name="G$1" symbol="MTA-1_6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10X06MTA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7070,10 +7165,12 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/msp430fr2433.pdf"&gt; Datas
 <part name="C9" library="rcl" deviceset="C-EU" device="C0402" value="9p"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="J1" library="con-amp" deviceset="MTA06-100" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="78.232" y="136.144" size="1.778" layer="91">DEBUG Interface</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="198.12" y="116.84"/>
@@ -7099,6 +7196,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/msp430fr2433.pdf"&gt; Datas
 <instance part="C9" gate="G$1" x="282.956" y="125.984"/>
 <instance part="GND6" gate="1" x="282.956" y="115.316"/>
 <instance part="GND7" gate="1" x="242.824" y="139.7" rot="R180"/>
+<instance part="J1" gate="G$1" x="81.28" y="121.92" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7113,6 +7211,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/msp430fr2433.pdf"&gt; Datas
 <junction x="129.54" y="134.62"/>
 <pinref part="IC2" gate="G$1" pin="!RST!/NMI/SBWTDIO"/>
 <label x="129.54" y="134.112" size="0.8128" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
+<label x="88.9" y="119.38" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7146,12 +7249,22 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/msp430fr2433.pdf"&gt; Datas
 <wire x1="236.22" y1="137.16" x2="242.824" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="83.82" y1="127" x2="88.9" y2="127" width="0.1524" layer="91"/>
+<label x="89.154" y="127" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="149.606" x2="129.54" y2="148.082" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="83.82" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
+<label x="88.9" y="129.54" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TEST" class="0">
@@ -7160,6 +7273,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/msp430fr2433.pdf"&gt; Datas
 <wire x1="149.86" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
 <label x="144.78" y="132.08" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
+<label x="89.154" y="116.84" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TXD" class="0">
 <segment>
@@ -7167,12 +7285,22 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/msp430fr2433.pdf"&gt; Datas
 <wire x1="149.86" y1="129.54" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
 <label x="144.78" y="129.54" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="83.82" y1="124.46" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
+<label x="89.154" y="124.206" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="RXD" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P1.5/UCA0RXD/UCA0SOMI/TA1.1/TMS/A5"/>
 <wire x1="149.86" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
 <label x="144.78" y="127" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="83.82" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
+<label x="88.9" y="121.666" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TDI" class="0">
