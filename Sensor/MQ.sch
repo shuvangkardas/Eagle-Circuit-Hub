@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -185,153 +186,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
-This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="GAS_SENSOR">
-<description>&lt;h3&gt;Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8&lt;/h3&gt;
-&lt;p&gt;Footprint is orientation agnostic.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MQ-3%20ver1.3%20-%20Manual.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 6&lt;/li&gt;
-&lt;li&gt;Diameter: 14.5 mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GAS_SENSOR&lt;/li&gt;
-&lt;/ul&gt;</description>
-<circle x="0" y="0" radius="8.4" width="0.2032" layer="21"/>
-<pad name="HA" x="-4.75" y="0" drill="1.016" diameter="1.9304"/>
-<pad name="HB" x="4.75" y="0" drill="1.016" diameter="1.9304"/>
-<pad name="A1" x="-3.35" y="3.35" drill="1.016" diameter="1.9304"/>
-<pad name="A2" x="-3.35" y="-3.35" drill="1.016" diameter="1.9304"/>
-<pad name="B2" x="3.35" y="-3.35" drill="1.016" diameter="1.9304"/>
-<pad name="B1" x="3.35" y="3.35" drill="1.016" diameter="1.9304"/>
-<hole x="0" y="0" drill="3"/>
-<text x="0" y="8.509" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-8.509" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="MQ-3">
-<description>&lt;h3&gt;Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8&lt;/h3&gt;
-&lt;p&gt;Through-hole gas sensors with a heating coil and an analog output.&lt;/p&gt;</description>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="A1" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="H1" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="B1" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="H2" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
-<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-7.62" y="-2.794" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GAS_SENSOR" prefix="GS">
-<description>&lt;h3&gt;Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8&lt;/h3&gt;
-&lt;p&gt;Through-hole gas sensors with a heating coil and an analog output.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MQ-3%20ver1.3%20-%20Manual.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8891"&gt;Gas Sensor Breakout Board&lt;/a&gt; (BOB-8891) - Breakout board compatible with all gas sensors.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8880"&gt;Alcohol Gas Sensor - MQ-3&lt;/a&gt; (SEN-08880)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9404"&gt;Methane CNG Gas Sensor - MQ-4&lt;/a&gt; (SEN-09404)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9405"&gt;LPG Gas Sensor - MQ-6&lt;/a&gt; (SEN-09405)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9403"&gt;Carbon Monoxide Sensor - MQ-7&lt;/a&gt; (SEN-09403)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10916"&gt;Hydrogen Gas Sensor - MQ-8&lt;/a&gt; (SEN-10916)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="MQ-3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="MQ-3" package="GAS_SENSOR">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="H1" pad="HA"/>
-<connect gate="G$1" pin="H2" pad="HB"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-12216"/>
-<attribute name="SF_ID" value="SEN-08880"/>
-</technology>
-</technologies>
-</device>
-<device name="MQ-4" package="GAS_SENSOR">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="H1" pad="HA"/>
-<connect gate="G$1" pin="H2" pad="HB"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-11559"/>
-<attribute name="SF_ID" value="SEN-09404"/>
-</technology>
-</technologies>
-</device>
-<device name="MQ-6" package="GAS_SENSOR">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="H1" pad="HA"/>
-<connect gate="G$1" pin="H2" pad="HB"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="SF_ID" value="SEN-09405"/>
-</technology>
-</technologies>
-</device>
-<device name="MQ-7" package="GAS_SENSOR">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="H1" pad="HA"/>
-<connect gate="G$1" pin="H2" pad="HB"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-12214"/>
-<attribute name="SF_ID" value="SEN-09403"/>
-</technology>
-</technologies>
-</device>
-<device name="MQ-8" package="GAS_SENSOR">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="H1" pad="HA"/>
-<connect gate="G$1" pin="H2" pad="HB"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-13351"/>
-<attribute name="SF_ID" value="SEN-10916"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -6581,6 +6435,157 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="GAS_SENSOR">
+<description>&lt;h3&gt;Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8&lt;/h3&gt;
+&lt;p&gt;Footprint is orientation agnostic.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MQ-3%20ver1.3%20-%20Manual.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pin Count: 6&lt;/li&gt;
+&lt;li&gt;Diameter: 14.5 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Devices Using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GAS_SENSOR&lt;/li&gt;
+&lt;/ul&gt;</description>
+<circle x="0" y="0" radius="8.4" width="0.2032" layer="21"/>
+<pad name="HA" x="-4.75" y="0" drill="1.016" diameter="1.9304"/>
+<pad name="HB" x="4.75" y="0" drill="1.016" diameter="1.9304"/>
+<pad name="A1" x="-3.35" y="3.35" drill="1.016" diameter="1.9304"/>
+<pad name="A2" x="-3.35" y="-3.35" drill="1.016" diameter="1.9304"/>
+<pad name="B2" x="3.35" y="-3.35" drill="1.016" diameter="1.9304"/>
+<pad name="B1" x="3.35" y="3.35" drill="1.016" diameter="1.9304"/>
+<hole x="0" y="0" drill="3"/>
+<text x="0" y="8.509" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-8.509" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MQ-3">
+<description>&lt;h3&gt;Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8&lt;/h3&gt;
+&lt;p&gt;Through-hole gas sensors with a heating coil and an analog output.&lt;/p&gt;</description>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="A1" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="H1" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="B1" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="H2" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-7.62" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
+<pin name="A2" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="B2" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GAS_SENSOR" prefix="GS">
+<description>&lt;h3&gt;Gas Sensors - MQ-3, MQ-4, MQ-6, MQ-7, MQ-8&lt;/h3&gt;
+&lt;p&gt;Through-hole gas sensors with a heating coil and an analog output.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MQ-3%20ver1.3%20-%20Manual.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8891"&gt;Gas Sensor Breakout Board&lt;/a&gt; (BOB-8891) - Breakout board compatible with all gas sensors.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8880"&gt;Alcohol Gas Sensor - MQ-3&lt;/a&gt; (SEN-08880)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9404"&gt;Methane CNG Gas Sensor - MQ-4&lt;/a&gt; (SEN-09404)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9405"&gt;LPG Gas Sensor - MQ-6&lt;/a&gt; (SEN-09405)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9403"&gt;Carbon Monoxide Sensor - MQ-7&lt;/a&gt; (SEN-09403)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10916"&gt;Hydrogen Gas Sensor - MQ-8&lt;/a&gt; (SEN-10916)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MQ-3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MQ-3" package="GAS_SENSOR">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="H1" pad="HA"/>
+<connect gate="G$1" pin="H2" pad="HB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-12216"/>
+<attribute name="SF_ID" value="SEN-08880"/>
+</technology>
+</technologies>
+</device>
+<device name="MQ-4" package="GAS_SENSOR">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="H1" pad="HA"/>
+<connect gate="G$1" pin="H2" pad="HB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-11559"/>
+<attribute name="SF_ID" value="SEN-09404"/>
+</technology>
+</technologies>
+</device>
+<device name="MQ-6" package="GAS_SENSOR">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="H1" pad="HA"/>
+<connect gate="G$1" pin="H2" pad="HB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SF_ID" value="SEN-09405"/>
+</technology>
+</technologies>
+</device>
+<device name="MQ-7" package="GAS_SENSOR">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="H1" pad="HA"/>
+<connect gate="G$1" pin="H2" pad="HB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-12214"/>
+<attribute name="SF_ID" value="SEN-09403"/>
+</technology>
+</technologies>
+</device>
+<device name="MQ-8" package="GAS_SENSOR">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="H1" pad="HA"/>
+<connect gate="G$1" pin="H2" pad="HB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="COMP-13351"/>
+<attribute name="SF_ID" value="SEN-10916"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6591,7 +6596,6 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="GS1" library="SparkFun-Sensors" deviceset="GAS_SENSOR" device="MQ-4"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1@1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
@@ -6600,16 +6604,13 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="GND3" library="supply1@1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1@1" deviceset="GND" device=""/>
+<part name="GS1" library="SparkFun-Sensors" deviceset="GAS_SENSOR" device="MQ-3"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="GS1" gate="G$1" x="15.24" y="78.74" smashed="yes">
-<attribute name="NAME" x="7.62" y="84.074" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="7.62" y="75.946" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
 <instance part="P+1" gate="VCC" x="-5.08" y="88.9" smashed="yes">
 <attribute name="VALUE" x="-7.62" y="86.36" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -6637,19 +6638,22 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND4" gate="1" x="0" y="66.04" smashed="yes">
 <attribute name="VALUE" x="-2.54" y="63.5" size="1.778" layer="96"/>
 </instance>
+<instance part="GS1" gate="G$1" x="15.24" y="78.74" smashed="yes">
+<attribute name="NAME" x="7.62" y="84.074" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="7.62" y="73.406" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="GS1" gate="G$1" pin="H1"/>
 <wire x1="5.08" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="0" y1="78.74" x2="-5.08" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="78.74" x2="-5.08" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="GS1" gate="G$1" pin="A1"/>
-<wire x1="-5.08" y1="81.28" x2="5.08" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="81.28" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="2.54" y1="81.28" x2="5.08" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="86.36" x2="-5.08" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-5.08" y="81.28"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -6658,14 +6662,20 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="0" y1="76.2" x2="0" y2="78.74" width="0.1524" layer="91"/>
 <junction x="0" y="78.74"/>
+<pinref part="GS1" gate="G$1" pin="A1"/>
+<pinref part="GS1" gate="G$1" pin="H1"/>
+<pinref part="GS1" gate="G$1" pin="A2"/>
+<wire x1="5.08" y1="76.2" x2="2.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="76.2" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
+<junction x="2.54" y="81.28"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="GS1" gate="G$1" pin="H2"/>
 <wire x1="27.94" y1="68.58" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GS1" gate="G$1" pin="H2"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -6683,12 +6693,17 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="MQ_OUT" class="0">
 <segment>
-<pinref part="GS1" gate="G$1" pin="B1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
 <junction x="35.56" y="81.28"/>
 <label x="40.64" y="81.28" size="1.778" layer="95" xref="yes"/>
+<pinref part="GS1" gate="G$1" pin="B1"/>
+<pinref part="GS1" gate="G$1" pin="B2"/>
+<wire x1="25.4" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="76.2" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<junction x="30.48" y="81.28"/>
 </segment>
 </net>
 </nets>
