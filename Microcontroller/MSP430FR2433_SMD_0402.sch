@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7368,16 +7368,18 @@ Connection corrected 2014-09-19</description>
 <junction x="132.08" y="111.76"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="P2.2" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P2.2/ACLK"/>
 <wire x1="149.86" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<label x="144.78" y="109.22" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="P3.0" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P3.0"/>
 <wire x1="149.86" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
+<label x="144.78" y="106.68" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="P3.2" class="0">
