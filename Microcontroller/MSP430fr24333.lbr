@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -523,37 +523,37 @@
 </packages>
 <symbols>
 <symbol name="MSP430FR2433IRGET">
-<wire x1="-43.18" y1="25.4" x2="43.18" y2="25.4" width="0.254" layer="94"/>
-<wire x1="43.18" y1="-30.48" x2="43.18" y2="25.4" width="0.254" layer="94"/>
-<wire x1="43.18" y1="-30.48" x2="-43.18" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-43.18" y1="25.4" x2="-43.18" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="25.4" x2="33.02" y2="25.4" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-20.32" x2="33.02" y2="25.4" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-20.32" x2="-43.18" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="25.4" x2="-43.18" y2="-20.32" width="0.254" layer="94"/>
 <text x="-41.91" y="27.94" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="39.37" y="27.94" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<text x="-44.45" y="-22.86" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="!RST!/NMI/SBWTDIO" x="-48.26" y="17.78" length="middle"/>
 <pin name="TEST/SBWTCK" x="-48.26" y="15.24" length="middle"/>
 <pin name="P1.4/UCA0TXD/UCA0SIMO/TA1.2/TCK/A4/VREF+" x="-48.26" y="12.7" length="middle"/>
 <pin name="P1.5/UCA0RXD/UCA0SOMI/TA1.1/TMS/A5" x="-48.26" y="10.16" length="middle"/>
 <pin name="P1.6/UCA0CLK/TA1CLK/TDI/TCLK/A6" x="-48.26" y="7.62" length="middle"/>
 <pin name="P1.7/UCA0STE/SMCLK/TDO/A7" x="-48.26" y="5.08" length="middle"/>
-<pin name="P1.0/UCB0STE/TA0CLK/A0/VEREF+" x="-48.26" y="-10.16" length="middle"/>
-<pin name="P1.1/UCB0CLK/TA0.1/A1" x="-48.26" y="-12.7" length="middle"/>
-<pin name="P1.2/UCB0SIMO/UCB0SDA/TA0.2/A2/VEREF-" x="-48.26" y="-15.24" length="middle"/>
-<pin name="P1.3/UCB0SOMI/UCB0SCL/MCLK/A3" x="-48.26" y="-17.78" length="middle"/>
-<pin name="P2.2/ACLK" x="-48.26" y="-20.32" length="middle"/>
-<pin name="P3.0" x="-48.26" y="-22.86" length="middle"/>
-<pin name="DVSS_1" x="48.26" y="17.78" length="middle" rot="R180"/>
-<pin name="P2.6/UCA1TXD/UCA1SIMO" x="48.26" y="15.24" length="middle" rot="R180"/>
-<pin name="P2.5/UCA1RXD/UCA1SOMI" x="48.26" y="12.7" length="middle" rot="R180"/>
-<pin name="P2.4/UCA1CLK" x="48.26" y="10.16" length="middle" rot="R180"/>
-<pin name="P3.1/UCA1STE" x="48.26" y="7.62" length="middle" rot="R180"/>
-<pin name="P2.3" x="48.26" y="5.08" length="middle" rot="R180"/>
-<pin name="GND" x="48.26" y="-7.62" length="middle" rot="R180"/>
-<pin name="DVCC" x="48.26" y="-10.16" length="middle" rot="R180"/>
-<pin name="DVSS_2" x="48.26" y="-12.7" length="middle" rot="R180"/>
-<pin name="P2.1/XIN" x="48.26" y="-15.24" length="middle" rot="R180"/>
-<pin name="P2.0/XOUT" x="48.26" y="-17.78" length="middle" rot="R180"/>
-<pin name="P3.2" x="48.26" y="-20.32" length="middle" rot="R180"/>
-<pin name="P2.7" x="48.26" y="-22.86" length="middle" rot="R180"/>
+<pin name="P1.0/UCB0STE/TA0CLK/A0/VEREF+" x="-48.26" y="2.54" length="middle"/>
+<pin name="P1.1/UCB0CLK/TA0.1/A1" x="-48.26" y="0" length="middle"/>
+<pin name="P1.2/UCB0SIMO/UCB0SDA/TA0.2/A2/VEREF-" x="-48.26" y="-2.54" length="middle"/>
+<pin name="P1.3/UCB0SOMI/UCB0SCL/MCLK/A3" x="-48.26" y="-5.08" length="middle"/>
+<pin name="P2.2/ACLK" x="-48.26" y="-7.62" length="middle"/>
+<pin name="P3.0" x="-48.26" y="-10.16" length="middle"/>
+<pin name="DVSS_1" x="38.1" y="2.54" length="middle" rot="R180"/>
+<pin name="P2.6/UCA1TXD/UCA1SIMO" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="P2.5/UCA1RXD/UCA1SOMI" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="P2.4/UCA1CLK" x="38.1" y="-5.08" length="middle" rot="R180"/>
+<pin name="P3.1/UCA1STE" x="38.1" y="-7.62" length="middle" rot="R180"/>
+<pin name="P2.3" x="38.1" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND" x="38.1" y="20.32" length="middle" rot="R180"/>
+<pin name="DVCC" x="38.1" y="17.78" length="middle" rot="R180"/>
+<pin name="DVSS_2" x="38.1" y="15.24" length="middle" rot="R180"/>
+<pin name="P2.1/XIN" x="38.1" y="12.7" length="middle" rot="R180"/>
+<pin name="P2.0/XOUT" x="38.1" y="10.16" length="middle" rot="R180"/>
+<pin name="P3.2" x="38.1" y="7.62" length="middle" rot="R180"/>
+<pin name="P2.7" x="38.1" y="5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="MSP430FR2433IYQWR">
 <wire x1="5.08" y1="2.54" x2="111.76" y2="2.54" width="0.254" layer="94"/>
