@@ -4,7 +4,7 @@
 [![GitHub release][release-shield]][release-url]
 [![GitHub commits][commits-shield]][commits-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 ## Commonly used Schematic for building circuit board
